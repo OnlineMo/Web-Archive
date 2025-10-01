@@ -22,6 +22,7 @@ jobs:
 
       - name: Run wget mirror
         run: |
+          # 执行爬取并保存日志，遇到错误不中断
           wget --mirror \
                --convert-links \
                --adjust-extension \
@@ -34,7 +35,14 @@ jobs:
                --local-encoding=UTF-8 \
                --remote-encoding=UTF-8 \
                --no-if-modified-since \
-               "https://iot.mi.com/vela/quickapp/zh/"
+               "https://iot.mi.com/vela/quickapp/zh/" \
+               -o wget.log || true
+
+      - name: Show wget log
+        run: |
+          echo "==== WGET LOG START ===="
+          tail -n 50 wget.log || true
+          echo "==== WGET LOG END ===="
 
       - name: Commit and push changes
         run: |

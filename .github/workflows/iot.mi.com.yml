@@ -33,7 +33,7 @@ jobs:
                --no-parent \
                --recursive \
                --level=6 \
-               --domains=iot.mi.com \
+               --domains=vele-docs \
                --iri \
                --local-encoding=UTF-8 \
                --remote-encoding=UTF-8 \

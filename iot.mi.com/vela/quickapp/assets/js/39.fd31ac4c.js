@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[39],{337:function(n,t,o){},550:function(n,t,o){"use strict";o(337)},562:function(n,t,o){"use strict";o.r(t);var s={props:["value"]},c=(o(550),o(18)),u=Object(c.a)(s,(function(){return(0,this._self._c)("i",{staticClass:"vp-icon-color",style:{"background-color":this.value}})}),[],!1,null,null,null);t.default=u.exports}}]);

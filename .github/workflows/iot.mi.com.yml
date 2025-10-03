@@ -3,10 +3,14 @@ name: Daily Crawl and Commit
 on:
   schedule:
     - cron: "0 20 * * *"   # 每天 UTC 时间 20:00 执行（北京时间 4:00）
-  workflow_dispatch:       # 允许手动触发
+  workflow_dispatch:
 
 permissions:
   contents: write
+
+env:
+  CRAWL_URL: "https://iot.mi.com/vela/quickapp/zh/"
+  DOMAIN_DIR: "vele-docs"
 
 jobs:
   crawl:
@@ -25,7 +29,6 @@ jobs:
 
       - name: Run wget mirror
         run: |
-          # 执行爬取并保存日志，遇到错误不中断
           wget --mirror \
                --convert-links \
                --adjust-extension \
@@ -33,13 +36,12 @@ jobs:
                --no-parent \
                --recursive \
                --level=6 \
-               --domains=vele-docs \
+               --domains=${DOMAIN_DIR} \
                --iri \
                --local-encoding=UTF-8 \
                --remote-encoding=UTF-8 \
                --no-if-modified-since \
-               "https://iot.mi.com/vela/quickapp/zh/" \
-               -o wget.log || true
+               "${CRAWL_URL}" || true
 
       - name: Show wget log
         run: |
@@ -47,14 +49,17 @@ jobs:
           tail -n 50 wget.log || true
           echo "==== WGET LOG END ===="
 
+      - name: Clean old markdown
+        run: |
+          echo "Cleaning old markdown files..."
+          rm -rf ${DOMAIN_DIR}/markdown
+          mkdir -p ${DOMAIN_DIR}/markdown
+
       - name: Convert HTML to Markdown
         run: |
-          mkdir -p vele-docs/markdown
-          # 遍历所有 html 文件
-          find vele-docs -type f -name "*.html" | while read file; do
-            # 目标路径：替换前缀 vele-docs/ 为 vele-docs/markdown/
-            rel="${file#vele-docs/}"
-            target="vele-docs/markdown/${rel%.html}.md"
+          find ${DOMAIN_DIR} -type f -name "*.html" | while read file; do
+            rel="${file#${DOMAIN_DIR}/}"
+            target="${DOMAIN_DIR}/markdown/${rel%.html}.md"
             mkdir -p "$(dirname "$target")"
             pandoc "$file" -f html -t markdown -o "$target"
           done
@@ -63,6 +68,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add vele-docs
+          git add ${DOMAIN_DIR}
           git commit -m "chore: daily crawl & convert $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push

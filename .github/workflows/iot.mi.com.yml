@@ -38,8 +38,7 @@ jobs:
                --local-encoding=UTF-8 \
                --remote-encoding=UTF-8 \
                --no-if-modified-since \
-               "https://iot.mi.com/vela/quickapp/zh/" \
-               -o wget.log || true
+               "https://iot.mi.com/vela/quickapp/zh/" || true
 
       - name: Show wget log
         run: |

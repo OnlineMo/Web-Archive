@@ -10,7 +10,8 @@ permissions:
 
 env:
   CRAWL_URL: "https://iot.mi.com/vela/quickapp/zh/"
-  DOMAIN_DIR: "iot.mi.com"
+  DOMAIN_DIR: "vele-docs"
+  DOMAIN: "iot.mi.com"
 
 jobs:
   crawl:
@@ -36,7 +37,8 @@ jobs:
                --no-parent \
                --recursive \
                --level=6 \
-               --domains=${DOMAIN_DIR} \
+               --domains=${DOMAIN} \
+               --directory-prefix=${DOMAIN_DIR} \
                --iri \
                --local-encoding=UTF-8 \
                --remote-encoding=UTF-8 \

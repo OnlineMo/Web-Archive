@@ -96,6 +96,7 @@ JS 应用开发文档]{.site-name
     -   [传感器 sensor](sensor.html){.sidebar-link}
     -   [事件 event](event.html){.sidebar-link}
     -   [电量信息 battery](battery.html){.sidebar-link}
+    -   [系统音量 volume](volume.html){.sidebar-link}
     -   [解压缩 zip](zip.html){.active .sidebar-link
         aria-current="page"}
     :::
@@ -179,7 +180,7 @@ zip.decompress({
 :::
 
 ::: page-nav
-[ ← [电量信息 battery](battery.html){.prev} ]{.prev} [ [密码算法
+[ ← [系统音量 volume](volume.html){.prev} ]{.prev} [ [密码算法
 crypto](../security/crypto.html) → ]{.next}
 :::
 :::

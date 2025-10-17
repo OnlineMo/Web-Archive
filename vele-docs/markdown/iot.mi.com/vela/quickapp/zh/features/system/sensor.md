@@ -97,6 +97,7 @@ JS 应用开发文档]{.site-name
         aria-current="page"}
     -   [事件 event](event.html){.sidebar-link}
     -   [电量信息 battery](battery.html){.sidebar-link}
+    -   [系统音量 volume](volume.html){.sidebar-link}
     -   [解压缩 zip](zip.html){.sidebar-link}
     :::
 

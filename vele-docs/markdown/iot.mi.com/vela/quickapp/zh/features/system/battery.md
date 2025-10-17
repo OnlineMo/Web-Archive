@@ -97,6 +97,7 @@ JS 应用开发文档]{.site-name
     -   [事件 event](event.html){.sidebar-link}
     -   [电量信息 battery](battery.html){.active .sidebar-link
         aria-current="page"}
+    -   [系统音量 volume](volume.html){.sidebar-link}
     -   [解压缩 zip](zip.html){.sidebar-link}
     :::
 
@@ -183,8 +184,8 @@ battery.getStatus({
 :::
 
 ::: page-nav
-[ ← [事件 event](event.html){.prev} ]{.prev} [ [解压缩 zip](zip.html) →
-]{.next}
+[ ← [事件 event](event.html){.prev} ]{.prev} [ [系统音量
+volume](volume.html) → ]{.next}
 :::
 :::
 

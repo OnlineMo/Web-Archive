@@ -97,6 +97,7 @@ JS 应用开发文档]{.site-name
     -   [传感器 sensor](sensor.html){.sidebar-link}
     -   [事件 event](event.html){.sidebar-link}
     -   [电量信息 battery](battery.html){.sidebar-link}
+    -   [系统音量 volume](volume.html){.sidebar-link}
     -   [解压缩 zip](zip.html){.sidebar-link}
     :::
 
@@ -125,6 +126,7 @@ JS 应用开发文档]{.site-name
 -   [传感器](sensor.html)
 -   [事件](event.html)
 -   [电量信息](battery.html)
+-   [系统音量](volume.html)
 -   [解压缩](zip.html)
 :::
 :::

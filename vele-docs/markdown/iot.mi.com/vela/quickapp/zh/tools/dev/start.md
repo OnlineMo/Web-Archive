@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](start.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/dev/start.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](start.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/dev/start.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -140,21 +164,21 @@ JS 应用开发文档]{.site-name
     -   标签属性补全：自动补全通用属性和组件特有的属性
     -   标签属性值补全：如果存在枚举值，自动补全属性值
 
-![alt text](../../../assets/img/ide-ux-6.266c3d7b.gif)
+![alt text](../../../images/tools/ide-ux-6.gif)
 
 ## [\#](start.html#style-区域内补全){.header-anchor} style 区域内补全
 
 -   CSS 属性补全：支持 Css 属性的自动补全；
 -   CSS 属性值补全：支持 Css 属性值的自动补全。
 
-![alt text](../../../assets/img/ide-ux-7.348aacf3.gif)
+![alt text](../../../images/tools/ide-ux-7.gif)
 
 ## [\#](start.html#其他补全){.header-anchor} 其他补全
 
 -   **路径补全**：自动补全文件路径，如组件路径；
 -   **class 值补全**：根据 style 标签中定义的 class 值进行自动补全。
 
-![alt text](../../../assets/img/ide-ux-8.a870ddca.gif)
+![alt text](../../../images/tools/ide-ux-8.gif)
 
 **ux 文件定义跳转**
 
@@ -162,7 +186,7 @@ JS 应用开发文档]{.site-name
     id，变量，方法，自定义组件跳转，script 区域的接口跳转等；
 -   **跳转操作**：Mac 下使用 command + 左键，Windows 下使用 ctrl +
     左键，即可跳转至定义处。 ![alt
-    text](../../../assets/img/ide-ux-9.92ebe41c.gif)
+    text](../../../images/tools/ide-ux-9.gif)
 
 **ux文件链接跳转**
 
@@ -170,7 +194,7 @@ JS 应用开发文档]{.site-name
 -   **跳转操作**：Mac 下使用 command + 左键，Windows 下使用 ctrl +
     左键，即可实现跳转。
 
-![alt text](../../../assets/img/ide-ux-10.84484208.gif)
+![alt text](../../../images/tools/ide-ux-10.gif)
 
 **ux 文件悬浮提示**
 
@@ -179,7 +203,7 @@ JS 应用开发文档]{.site-name
 -   **样式提示**：显示关于 style 的样式信息；
 -   **脚本提示**：显示 script 区域的方法，导入模块等提示信息。
 
-![alt text](../../../assets/img/ide-ux-11.a87f6268.gif)
+![alt text](../../../images/tools/ide-ux-11.gif)
 :::
 
 ::: page-nav

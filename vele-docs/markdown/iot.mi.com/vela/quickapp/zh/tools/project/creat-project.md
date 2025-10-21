@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](creat-project.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/project/creat-project.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](creat-project.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/project/creat-project.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -135,7 +159,7 @@ JS 应用开发文档]{.site-name
 -   1.点击左上角文件按钮，出现下拉菜单。
 -   2.点击新建项目菜单，打开新建项目弹窗。
 
-![alt text](../../../assets/img/ide-create-project.b0a85829.png)
+![alt text](../../../images/tools/ide-create-project.png)
 
 在新建项目时可选择项目类型，并通过我们提供的模板创建基础的**Xiaomi Vela
 JS**应用项目，目前提供了八种基础模板：
@@ -150,8 +174,8 @@ JS**应用项目，目前提供了八种基础模板：
 -   8.**Xiaomi Vela JS**应用项目设置面板模板
 
 ::: {style="display:flex;gap:10px;"}
-![](../../../assets/img/ide-project-template.c1a89590.png){width="45%"}
-![](../../../assets/img/ide-project-template1.03ce3ef6.png){width="45%"}
+![](../../../images/tools/ide-project-template.png){width="45%"}
+![](../../../images/tools/ide-project-template1.png){width="45%"}
 :::
 
 选择完模板后，点击下一步，请按下面步骤完成创建：
@@ -160,11 +184,11 @@ JS**应用项目，目前提供了八种基础模板：
 -   2.选择创建目录(`AIoT-IDE`会记录用户曾选择过的创建目录，可直接选择)
 -   3.输入完相应表单内容，点击创建，即可创建成功。
 
-![alt text](../../../assets/img/ide-create-project1.dc1a0d1f.png)
+![alt text](../../../images/tools/ide-create-project1.png)
 
 创建成功后，`AIoT-IDE`会自动打开创建的项目，按引导页指示安装项目依赖后，即可运行项目(**下图标签1，2**)。
 
-![alt text](../../../assets/img/ide-create-success.d01a52ec.png)
+![alt text](../../../images/tools/ide-create-success.png)
 :::
 
 ::: page-nav

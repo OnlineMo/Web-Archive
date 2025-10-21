@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](audit.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/debug/audit.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](audit.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/debug/audit.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -130,7 +154,7 @@ JS 应用开发文档]{.site-name
 
 为了优化开发者开发体验，`AIoT-IDE`中内置了生成优化评分报告功能，点击`生成报告`按钮即可根据当前打开的应用生成优化报告。
 
-![alt text](../../../assets/img/ide-debug-14.c5711f64.png)
+![alt text](../../../images/tools/ide-debug-14.png)
 
 整体分为动态分析和静态分析2部分，每个检测项会包括：触发条目的具体信息（例如代码位置/文件url/网络url），优化建议等。
 
@@ -140,13 +164,13 @@ JS 应用开发文档]{.site-name
 
 2.  后续也规划提供类似treeMap的依赖占比可视化分析
 
-![alt text](../../../assets/img/ide-debug-15.4ea8f226.png)
+![alt text](../../../images/tools/ide-debug-15.png)
 
 ## [\#](audit.html#性能指标){.header-anchor} 性能指标
 
 优化报告中有给出多维度的性能指标，给出优化建议,以便开发者进行优化。
 
-![alt text](../../../assets/img/ide-debug-16.e4b424e1.png)
+![alt text](../../../images/tools/ide-debug-16.png)
 
 ## [\#](audit.html#优化检测项){.header-anchor} 优化检测项
 
@@ -165,55 +189,55 @@ JS 应用开发文档]{.site-name
 
 优化报告中会标出多次引用的代码，给出优化建议，以便开发者进行优化。
 
-![alt text](../../../assets/img/ide-debug-17.1d48b3b8.png)
+![alt text](../../../images/tools/ide-debug-17.png)
 
 ### [\#](audit.html#大型依赖替换检测){.header-anchor} 大型依赖替换检测
 
 优化报告中会标出体积过大的依赖项，给出优化建议，以便开发者进行优化。
 
-![alt text](../../../assets/img/ide-debug-18.e7754dce.png)
+![alt text](../../../images/tools/ide-debug-18.png)
 
 ### [\#](audit.html#未使用依赖检测){.header-anchor} 未使用依赖检测
 
 优化报告中会标出未使用的依赖项，给出优化建议，以便开发者进行优化。
 
-![alt text](../../../assets/img/ide-debug-19.9424961f.png)
+![alt text](../../../images/tools/ide-debug-19.png)
 
 ### [\#](audit.html#未使用系统功能检测){.header-anchor} 未使用系统功能检测
 
 优化报告中会标出未使用的系统功能，给出优化建议，以便开发者进行优化。
 
-![alt text](../../../assets/img/ide-debug-20.b5afc80e.png)
+![alt text](../../../images/tools/ide-debug-20.png)
 
 ### [\#](audit.html#网络请求耗时检测){.header-anchor} 网络请求耗时检测
 
 优化报告中会标出请求响应耗时过长的请求，给出优化建议，以便开发者进行优化。
 
-![alt text](../../../assets/img/ide-debug-21.d56e72ab.png)
+![alt text](../../../images/tools/ide-debug-21.png)
 
 ### [\#](audit.html#网络请求https使用检测){.header-anchor} 网络请求https使用检测
 
 优化报告中会标出请求响应中未使用https的，给出优化建议，以便开发者进行优化。
 
-![alt text](../../../assets/img/ide-debug-22.35e550eb.png)
+![alt text](../../../images/tools/ide-debug-22.png)
 
 ### [\#](audit.html#网络请求次数检测){.header-anchor} 网络请求次数检测
 
 优化报告中会标出请求响应中频繁请求的，给出优化建议，以便开发者进行优化。
 
-![alt text](../../../assets/img/ide-debug-23.8dded1ef.png)
+![alt text](../../../images/tools/ide-debug-23.png)
 
 ### [\#](audit.html#网络请求异常检测){.header-anchor} 网络请求异常检测
 
 优化报告中会标出请求响应异常，给出优化建议，以便开发者进行优化。
 
-![alt text](../../../assets/img/ide-debug-24.c985147b.png)
+![alt text](../../../images/tools/ide-debug-24.png)
 
 ### [\#](audit.html#代码执行报错检测){.header-anchor} 代码执行报错检测
 
 优化报告中会标出项目中代码执行报错的，给出优化建议，以便开发者进行优化。
 
-![alt text](../../../assets/img/ide-debug-25.6f325a56.png)
+![alt text](../../../images/tools/ide-debug-25.png)
 :::
 
 ::: page-nav

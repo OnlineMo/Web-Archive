@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](format.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/dev/format.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](format.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/dev/format.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -138,7 +162,7 @@ JS 应用开发文档]{.site-name
 
 勾选「Editor: Format On Save」，如下图所示。
 
-![alt text](../../../assets/img/ide-ux-5.17128f1b.png)
+![alt text](../../../images/tools/ide-ux-5.png)
 
 激活此选项后，每次保存时，系统都会自动使用 prettier 格式化代码。
 
@@ -146,7 +170,7 @@ JS 应用开发文档]{.site-name
 是一款流行的代码格式化工具，支持多种开发语言和文件格式，其目标是提供统一的代码风格，以简化代码维护并提高团队效率。**`AIoT-IDE`**
 内置 prettier 依赖，您无需额外操作即可使用。具体效果如下动态图所示：
 
-![alt text](../../../assets/img/ide-ux-12.c234ad28.gif)
+![alt text](../../../images/tools/ide-ux-12.gif)
 :::
 
 ::: page-nav

@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../../tools/index.html){.nav-link}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](style.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/components/general/style.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../../tools/index.html){.nav-link}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](style.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/components/general/style.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -143,7 +167,7 @@ JS 应用开发文档]{.site-name
 ```
 :::
 
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANYAAABsCAIAAACZ0NtqAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADQElEQVR4nO3YMU8acRjHcY5ra0xYNKyoocPRgc1R2bwRfCE6thJoJ2yj7agvhHY8N2R0Yyg3aFRWoosJsQaug9erWsLRRu/nP/1+Jg6O5MmTb47jrCAIUoBOWj0A/nckCDEShNiLP98a9ftDzxv53aDXS36gZ8XK5dJOwXbddDb7D18/G5zun++1Llqdq86jz2aWYqZYmi9tLGwuzi49+Mh68Hfkptkcfvua3GiGsMuVl+vrf/WV7ePGp5OPTzSPuWr5+vvXH+6+cy/B692dwPcTn8oMluPMbFWnPNk9WmtfHj7pPOZamVv1lg+iw9/3gjfNJv1NEPj+TbM5zZnbxw36m6B9ebh93IgOw6vgqN//8e6tbipjvPr8ZfJ94dng9E27kNg85vq+0r29LwyvgkPPU45jjthF7Z/vJTOJ6aJFhQmO/K5uGJPELqp10UpmEtNFiwoT5PnLlGIXxfOXKUWL4tE0xEgQYiQIMRKEGAlCjAQhRoIQI0GIkSDESBBiJAgxEoQYCUKMBCFGghAjQYiRIMRIEGIkCDEShBgJQowEIUaCECNBiJEgxEgQYiQIMRKEGAlCjAQhRoIQI0GIkSDESBBiJAgxEoQYCUKMBCFGghAjQYiRIMRIEGIkCDEShBgJQowEIUaCECNBiJEgxEgQYiQIMRKEGAlCjAQhRoIQI0GIkSDESBBiJAgxEoQYCUKMBCFGghAjQYiRIMRIEGIkCDEShBgJQowEIUaCECNBiJEgxEgQYiQIMRKEGAlCjAQhRoIQI0GIkSDESBBiJAgxEoQYCUIsTNDK5bRzmCJ2UcVMMZlJTBctKkww7RR0w5gkdlGl+VIyk5guWlSYoO26umFMEruojYXNZCYxXbSoX1fBbNYuV3TzmMEuV9LZ7ORzFmeXavl6MvOYq5avL84u3b62giCIPrje3Ql8XzPUs2c5zsxWdcqT3aO19uXhk85jrpW5VW/5IDq89494ZqvKtXAsu1yZvr9UKuUtH3AtHKuWr9/tL/XgKnhr1O8PPW/kd4NeL8HZniMrl0s7Bdt1Y39/xzobnO6f77UuWp2rzqPPZpZipliaL20sbEa/v5ExCQJJ4tE0xEgQYiQIsZ83RLmJu++FMQAAAABJRU5ErkJggg==)
+![](../../../images/components/general-style.png)
 
 ## [\#](style.html#属性列表){.header-anchor} 属性列表
 

@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../../tools/index.html){.nav-link}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](extension-components.html){.nav-link
+    .router-link-exact-active .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/guide/developer-materials/extension-components.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../../tools/index.html){.nav-link}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](extension-components.html){.nav-link
+    .router-link-exact-active .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/guide/developer-materials/extension-components.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -173,21 +197,21 @@ JS 应用开发文档]{.site-name
 
 -   圆形屏幕
 
-![](../../../assets/img/input-method-qwerty.e8a5fdb9.png)
+![](../../../images/guide/input-method-qwerty.png)
 
 -   矩形屏幕
 
-![](../../../assets/img/input-method-qwerty-rect.153d5196.png)
+![](../../../images/guide/input-method-qwerty-rect.png)
 
 -   胶囊屏幕
 
-![](../../../assets/img/input-method-qwerty-pill-shaped.862bb585.png)
+![](../../../images/guide/input-method-qwerty-pill-shaped.png)
 
 #### [\#](extension-components.html#九键模式){.header-anchor} 九键模式
 
 -   圆形屏幕
 
-![](../../../assets/img/input-method-t9.7fc9311e.png)
+![](../../../images/guide/input-method-t9.png)
 
 ### [\#](extension-components.html#项目地址){.header-anchor} 项目地址
 

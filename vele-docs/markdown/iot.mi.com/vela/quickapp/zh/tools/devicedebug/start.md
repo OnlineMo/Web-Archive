@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](start.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/devicedebug/start.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](start.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/devicedebug/start.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -146,24 +170,24 @@ JS**应用时进行真机调试，在`AIoT-IDE`可通过设备ID连接真机，�
 
 1.打开rpk 先在真机上打开安装好的真机调试debug-app（图中红框标记的）
 
-![alt text](../../../assets/img/ide-emulator-22.41d3d91b.png)
+![alt text](../../../images/tools/ide-emulator-22.png)
 
 2.进行连接
 打开debug-app后，点击开启调试，debug-app的中间按钮状态进入到【等待IDE连接】
-![alt text](../../../assets/img/ide-emulator-23.f5d6bfbf.png)
+![alt text](../../../images/tools/ide-emulator-23.png)
 
 3.IDE端连接 在电脑端打开AIOT-IDE，进入真机调试界面 ![alt
-text](../../../assets/img/ide-emulator-24.f2efeeef.png)
+text](../../../images/tools/ide-emulator-24.png)
 
 4.开始连接
 点击连接设备，输入设备IDE（设备ID从上面的debug-App中的设备ID获取），点击连接
 
-![alt text](../../../assets/img/ide-emulator-25.b2d20fa1.png)
+![alt text](../../../images/tools/ide-emulator-25.png)
 
 5.连接成功
 连接成功后，按钮下面列表中出现一条真机信息，状态显示为Connected
 
-![alt text](../../../assets/img/ide-emulator-26.d15ba73a.png)
+![alt text](../../../images/tools/ide-emulator-26.png)
 
 ## [\#](start.html#调试){.header-anchor} 调试
 
@@ -172,31 +196,31 @@ text](../../../assets/img/ide-emulator-24.f2efeeef.png)
 1.选择设备
 在顶部tab栏中点击连接设备，选择真机设备，然后点击调试，进入真机调试模式。
 
-![alt text](../../../assets/img/ide-emulator-27.0eac6b00.png)
+![alt text](../../../images/tools/ide-emulator-27.png)
 
-![alt text](../../../assets/img/ide-emulator-28.f70a3e14.png)
+![alt text](../../../images/tools/ide-emulator-28.png)
 
-![alt text](../../../assets/img/ide-emulator-29.eab9fabd.png)
+![alt text](../../../images/tools/ide-emulator-29.png)
 
 2.进入真机调试
 调试运行成功后，真机上会自动打开当前应用，AIOT-IDE底部会直接打开调试面板
 
-![alt text](../../../assets/img/ide-emulator-30.3466a9ed.png)
+![alt text](../../../images/tools/ide-emulator-30.png)
 
 3 获取日志 在真机调试面板中点击获取日志，可直接拉取真机上的日志
 
-![alt text](../../../assets/img/ide-emulator-31.2c1ac926.png)
+![alt text](../../../images/tools/ide-emulator-31.png)
 
 4.推送其他rpk
 在真机调试页面中可点击推送rpk按钮，选择要推送的非当前项目rpk进行推送，进行真机调试。
 
-![alt text](../../../assets/img/ide-emulator-32.07ccb16f.png)
+![alt text](../../../images/tools/ide-emulator-32.png)
 
 5.真机调试效果
 在AIOT-IDE调试面板上进行调试，真机会实时显示调试效果(但不支持热更新，如要修改源码可点击打包按钮打包当前应用，通过第四步进行rpk安装)
 
-![alt text](../../../assets/img/ide-emulator-33.758e313e.png) ![alt
-text](../../../assets/img/ide-emulator-34.0f56355b.png)
+![alt text](../../../images/tools/ide-emulator-33.png) ![alt
+text](../../../images/tools/ide-emulator-34.png)
 :::
 
 ::: page-nav

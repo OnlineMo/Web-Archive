@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../../tools/index.html){.nav-link}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](stack.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/components/container/stack.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../../tools/index.html){.nav-link}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](stack.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/components/container/stack.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -181,7 +205,7 @@ JS 应用开发文档]{.site-name
 ```
 :::
 
-![](data:image/png;base64,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)
+![](../../../images/components/stack.png)
 :::
 
 ::: page-nav

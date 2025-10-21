@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](toolbar.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/debug/toolbar.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](toolbar.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/debug/toolbar.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -134,67 +158,67 @@ JS 应用开发文档]{.site-name
 
 **关闭所有模拟器**，位于模拟器运行页面右上角，点击后可关闭所有正在运行的模拟器，如下图中序号1所示。
 
-![alt text](../../../assets/img/ide-debug-26.4fe578ef.png)
+![alt text](../../../images/tools/ide-debug-26.png)
 
 ## [\#](toolbar.html#自定义模拟器显示){.header-anchor} 自定义模拟器显示
 
 **自定义模拟器显示**，位于模拟器运行页面右上角，点击后可在弹出框中自定义已运行的模拟器的显示顺序，如下图序号1，序号2所示。
 
-![alt text](../../../assets/img/ide-debug-27.5f258abf.png)
+![alt text](../../../images/tools/ide-debug-27.png)
 
 ## [\#](toolbar.html#关机){.header-anchor} 关机
 
 关机，每个模拟器显示区域都会在右侧配置一个关机按钮，可关闭单个运行的模拟器，如下图序号1所示。
 
-![alt text](../../../assets/img/ide-debug-28.ab39129e.png)
+![alt text](../../../images/tools/ide-debug-28.png)
 
 ## [\#](toolbar.html#首页){.header-anchor} 首页
 
 首页，每个模拟器显示区域都会在右侧配置一个首页按钮，点击后可回到当前模拟器首页，如下图序号1，2所示。
 
-![alt text](../../../assets/img/ide-debug-29.c8f70d32.png)
+![alt text](../../../images/tools/ide-debug-29.png)
 
 ## [\#](toolbar.html#终端){.header-anchor} 终端
 
 终端，每个模拟器显示区域都会在右侧配置一个终端按钮，点击进入模拟器命令行终端，如下图序号1，2所示。
 
-![alt text](../../../assets/img/ide-debug-35.a7592294.png)
+![alt text](../../../images/tools/ide-debug-35.png)
 
 ## [\#](toolbar.html#查看日志){.header-anchor} 查看日志
 
 查看日志，每个模拟器显示区域都会在右侧配置一个查看日志按钮，点击进入可查看日志，如下图序号1，2所示。
 
-![alt text](../../../assets/img/ide-debug-36.e7c38e63.png)
+![alt text](../../../images/tools/ide-debug-36.png)
 
 ## [\#](toolbar.html#菜单){.header-anchor} 菜单
 
 菜单，每个模拟器显示区域都会在右侧配置一个菜单按钮，点击后可回到当前模拟器菜单页，如下图序号1所示。
 
-![alt text](../../../assets/img/ide-debug-30.ae3d77e9.png)
+![alt text](../../../images/tools/ide-debug-30.png)
 
 ## [\#](toolbar.html#截图){.header-anchor} 截图
 
 截图，每个模拟器显示区域都会在右侧配置一个截图按钮，点击可对当前模拟器效果进行截图，并选择有皮肤，无皮肤两种模式，如下图序号1，2所示。
 
-![alt text](../../../assets/img/ide-debug-31.54d34bc3.png)
+![alt text](../../../images/tools/ide-debug-31.png)
 
 ## [\#](toolbar.html#尺寸){.header-anchor} 尺寸
 
 尺寸，每个模拟器显示区域都会在右侧配置一个尺寸按钮，可动态调整当前模拟器显示大小，如下图序号1，2所示。
 
-![alt text](../../../assets/img/ide-debug-32.df0a72dc.png)
+![alt text](../../../images/tools/ide-debug-32.png)
 
 ## [\#](toolbar.html#安装rpk){.header-anchor} 安装rpk
 
 安装rpk，每个模拟器显示区域都会在右侧配置一个安装rpk按钮，点击后选择本地rpk文件进行安装，如下图序号1，2所示。
 
-![alt text](../../../assets/img/ide-debug-33.d829014e.png)
+![alt text](../../../images/tools/ide-debug-33.png)
 
 ## [\#](toolbar.html#运行rpk){.header-anchor} 运行rpk
 
 运行rpk，每个模拟器显示区域都会在右侧配置一个运行rpk按钮，点击后在已安装的rpk列表中，切换运行的rpk或卸载已安装的rpk。如下图序号1，2，3所示。
 
-![alt text](../../../assets/img/ide-debug-34.23e3e479.png)
+![alt text](../../../images/tools/ide-debug-34.png)
 :::
 
 ::: page-nav

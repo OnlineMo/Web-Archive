@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../../tools/index.html){.nav-link}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](specs.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/guide/multi-screens/specs.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../../tools/index.html){.nav-link}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](specs.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/guide/multi-screens/specs.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -180,7 +204,7 @@ Vela OS 支持一系列适配多种屏幕的技术能力。
 ```
 :::
 
-![](../../../assets/img/flex-items.3b8975ec.png)
+![](../../../images/multi-screens/flex-items.png)
 
 更多说明请参考[Flex
 布局示例](../framework/style/page-style-and-layout.html#flex-布局示例)
@@ -241,8 +265,8 @@ container 元素的实际宽度为 96 像素。
 336\*480 屏幕 / 192\*490 屏幕
 
 ::: {style="display:flex;align-items:flex-end;"}
-![](../../../assets/img/px-demo2.2c72f2b4.png){style="width:34%;"}
-![](../../../assets/img/px-demo1.e4708ec4.png){style="width:21%;margin-left:20px;"}
+![](../../../images/multi-screens/px-demo2.png){style="width:34%;"}
+![](../../../images/multi-screens/px-demo1.png){style="width:21%;margin-left:20px;"}
 :::
 
 更多说明请参考[长度单位](../framework/style/page-style-and-layout.html#长度单位)
@@ -264,7 +288,7 @@ container 元素的实际宽度为 96 像素。
 ```
 :::
 
-![](../../../assets/img/percent.f4459edc.png)
+![](../../../images/multi-screens/percent.png)
 
 更多说明请参考[CSS
 百分比单位![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiBmb2N1c2FibGU9ImZhbHNlIiB4PSIwcHgiIHk9IjBweCIgdmlld2JveD0iMCAwIDEwMCAxMDAiIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgY2xhc3M9Imljb24gb3V0Ym91bmQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTE4LjgsODUuMWg1NmwwLDBjMi4yLDAsNC0xLjgsNC00di0zMmgtOHYyOGgtNDh2LTQ4aDI4di04aC0zMmwwLDBjLTIuMiwwLTQsMS44LTQsNHY1NkMxNC44LDgzLjMsMTYuNiw4NS4xLDE4LjgsODUuMXoiPjwvcGF0aD4gPHBvbHlnb24gZmlsbD0iY3VycmVudENvbG9yIiBwb2ludHM9IjQ1LjcsNDguNyA1MS4zLDU0LjMgNzcuMiwyOC41IDc3LjIsMzcuMiA4NS4yLDM3LjIgODUuMiwxNC45IDYyLjgsMTQuOSA2Mi44LDIyLjkgNzEuNSwyMi45Ij48L3BvbHlnb24+PC9zdmc+){.icon
@@ -344,8 +368,8 @@ PPI（pixels per inch）表示每英寸的像素数，表征屏幕的物理密�
 466\*466 屏幕 / 192\*490 屏幕
 
 ::: {style="display:flex;align-items:flex-end;"}
-![](../../../assets/img/dp-demo1.e8ec3d24.png){style="width:47%;"}
-![](../../../assets/img/dp-demo2.36b01285.png){style="width:21%;margin-left:20px;"}
+![](../../../images/multi-screens/dp-demo1.png){style="width:47%;"}
+![](../../../images/multi-screens/dp-demo2.png){style="width:21%;margin-left:20px;"}
 :::
 
 ## [\#](specs.html#媒体查询){.header-anchor} 媒体查询
@@ -402,8 +426,8 @@ PPI（pixels per inch）表示每英寸的像素数，表征屏幕的物理密�
 466\*466 屏幕 / 192\*490 屏幕
 
 ::: {style="display:flex;align-items:flex-end;"}
-![](../../../assets/img/mediaquery-demo2.e7e97e65.png){style="width:47%;"}
-![](../../../assets/img/mediaquery-demo1.f4d719b5.png){style="width:21%;margin-left:20px;"}
+![](../../../images/multi-screens/mediaquery-demo2.png){style="width:47%;"}
+![](../../../images/multi-screens/mediaquery-demo1.png){style="width:21%;margin-left:20px;"}
 :::
 
 ## [\#](specs.html#获取屏幕信息){.header-anchor} 获取屏幕信息
@@ -450,8 +474,8 @@ PPI（pixels per inch）表示每英寸的像素数，表征屏幕的物理密�
 圆形屏幕 / 矩形屏幕
 
 ::: {style="display:flex;align-items:flex-end;"}
-![](../../../assets/img/shape-circle.e0129e63.png){style="width:48%;"}
-![](../../../assets/img/shape-rect.7604893f.png){style="width:35%;margin-left:20px;"}
+![](../../../images/multi-screens/shape-circle.png){style="width:48%;"}
+![](../../../images/multi-screens/shape-rect.png){style="width:35%;margin-left:20px;"}
 :::
 
 详细介绍请参考 [设备信息 device](../../features/basic/device.html)

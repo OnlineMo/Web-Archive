@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](project.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/project/project.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](project.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/project/project.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -135,20 +159,20 @@ JS**应用项目，`AIoT-IDE`提供了删除和打开历史项目的功能。
 
 在打开新建项目弹窗时，可查看到已创建项目的历史信息卡片，选中其中一个项目，通过右下角打开按钮打开项目，如下图1，2所示：
 
-![alt text](../../../assets/img/ide-delete-project.a0a34d16.png)
+![alt text](../../../images/tools/ide-delete-project.png)
 
 ## [\#](project.html#删除项目){.header-anchor} 删除项目
 
 将鼠标移动至历史项目信息顶部的**管理**按钮，点击后每个卡片的右上角会出现一个勾选按钮，选择一个或多个历史项目后，可点击右下角删除项目。如下图**标签1，2，3**所示：
 
-![alt text](../../../assets/img/ide-delete-project-1.d8356b1c.png)
+![alt text](../../../images/tools/ide-delete-project-1.png)
 
 ## [\#](project.html#导入项目){.header-anchor} 导入项目
 
 将鼠标移动至历史项目信息顶部的**导入**按钮，点击后将会自动打开一个文件夹选择框，选择对应的项目类型进行导入，非qucikApp项目和**Xiaomi
 Vela JS**应用项目将无法导入
 
-![alt text](../../../assets/img/ide-delete-project-2.0081568a.png)
+![alt text](../../../images/tools/ide-delete-project-2.png)
 :::
 
 ::: page-nav

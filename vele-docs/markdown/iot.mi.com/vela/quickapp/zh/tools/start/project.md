@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](project.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/start/project.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](project.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/start/project.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -140,7 +164,7 @@ JS 应用开发文档]{.site-name
 5.**功能面板**：提供问题、输出、终端、调试等面板。\
 6.**模拟器**：包含引导页提示，仿真预览、模拟真机操作、截图等功能。
 
-![alt text](../../../assets/img/ide-tools.4a06361a.png)
+![alt text](../../../images/tools/ide-tools.png)
 
 只有通过`AIoT-IDE` 打开的是一个**Xiaomi Vela
 JS应用**，主窗口界面才会如上图所示，`AIoT-IDE`会通过打开的项目结构自动识别打开的项目是否为**Xiaomi
@@ -176,15 +200,15 @@ JS**应用模拟器运行环境。按引导页提示进行操作:
     Vela JS**应用项目
 -   2.**初始化模拟器环境**，模拟器用户引导页会自动当前环境是否具备模拟器运行环境，如不具备可按用户引导页操作，**自动安装**好模拟器环境
 
-![alt text](../../../assets/img/ide-warning.d01a52ec.png)
+![alt text](../../../images/tools/ide-warning.png)
 
 按照上图引导页提示**正确操作**完毕后，引导页会给出项目可以**当前项目可以正常启动**的提示，如下图中**标签1**所示。
 
-![alt text](../../../assets/img/ide-success.1f62c9e0.png)
+![alt text](../../../images/tools/ide-success.png)
 
 注意：**出于性能考虑**，引导页不会轮询监测项目依赖和模拟器运行环境是否已经具备，当用户选择**自行手动安装**的方式，安装好项目依赖和模拟器运行环境时，可点击**引导页右上角刷新**按钮，刷新引导页状态。
 
-![alt text](../../../assets/img/ide-sx.c793d13b.png)
+![alt text](../../../images/tools/ide-sx.png)
 
 ## [\#](project.html#设备管理页){.header-anchor} 设备管理页
 
@@ -193,9 +217,9 @@ JS**应用模拟器运行环境。按引导页提示进行操作:
 -   **1.模拟器管理和真机调试**：提供对模拟器的增删改查和运行功能和真机调试
 -   **2.模拟器SDK管理**：提供对模拟器运行环境所需的SDK包的安装和更新
 
-![alt text](../../../assets/img/ide-emulator-1.9aad1716.png)
+![alt text](../../../images/tools/ide-emulator-1.png)
 
-![alt text](../../../assets/img/ide-emulator-19.35ff6df5.png)
+![alt text](../../../images/tools/ide-emulator-19.png)
 
 ## [\#](project.html#模拟器运行预览页面){.header-anchor} 模拟器运行预览页面
 
@@ -207,7 +231,7 @@ JS**应用模拟器运行环境。按引导页提示进行操作:
 -   4.模拟器运行成功，模拟器预览页将出现对应模拟器，并将当前打开的**Xiaomi
     Vela JS应用**推送到运行的模拟器中。
 
-![alt text](../../../assets/img/ide-debugrun.92035925.png)
+![alt text](../../../images/tools/ide-debugrun.png)
 :::
 
 ::: page-nav

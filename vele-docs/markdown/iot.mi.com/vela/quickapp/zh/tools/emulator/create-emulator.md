@@ -5,8 +5,8 @@
 ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJpbWciIHZpZXdib3g9IjAgMCA0NDggNTEyIiBjbGFzcz0iaWNvbiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNDM2IDEyNEgxMmMtNi42MjcgMC0xMi01LjM3My0xMi0xMlY4MGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6bTAgMTYwSDEyYy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0zMmMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDQyNGM2LjYyNyAwIDEyIDUuMzczIDEyIDEydjMyYzAgNi42MjctNS4zNzMgMTItMTIgMTJ6Ij48L3BhdGg+PC9zdmc+){.icon}
 :::
 
-[![Xiaomi Vela JS 应用开发文档](../../../logo.png){.logo} [Xiaomi Vela
-JS 应用开发文档]{.site-name
+[![Xiaomi Vela JS 应用](../../../logo.png){.logo} [Xiaomi Vela JS
+应用]{.site-name
 .can-hide}](https://iot.mi.com/vela/quickapp/){.home-link
 .router-link-active}
 
@@ -33,6 +33,18 @@ JS 应用开发文档]{.site-name
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
 :::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](create-emulator.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/emulator/create-emulator.html){.nav-link}
+:::
+:::
 :::
 :::
 
@@ -57,6 +69,18 @@ JS 应用开发文档]{.site-name
 
 ::: nav-item
 [工具](../index.html){.nav-link .router-link-active}
+:::
+
+::: nav-item
+::: dropdown-wrapper
+[选择语言]{.title} []{.arrow .down}
+
+[选择语言]{.title} []{.arrow .right}
+
+-   [简体中文](create-emulator.html){.nav-link .router-link-exact-active
+    .router-link-active aria-current="page"}
+-   [English](https://iot.mi.com/vela/quickapp/en/tools/emulator/create-emulator.html){.nav-link}
+:::
 :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -133,7 +157,7 @@ JS 应用开发文档]{.site-name
 -   **1.模拟器版本管理**：提供对模拟器的增删改查和运行功能，如下图1所示。
 -   **2.Vela镜像版本管理**：提供对模拟器运行环境所需的SDK包的安装和更新，如下图2所示。
 
-![alt text](../../../assets/img/ide-emulator-1.9aad1716.png)
+![alt text](../../../images/tools/ide-emulator-1.png)
 
 ## [\#](create-emulator.html#模拟器设备管理){.header-anchor} 模拟器设备管理
 
@@ -147,32 +171,32 @@ JS 应用开发文档]{.site-name
 
 此外，用户可以点击左上角新建按钮进入模拟器创建页面。
 
-![alt text](../../../assets/img/ide-emulator-20.c0b065b0.png)
+![alt text](../../../images/tools/ide-emulator-20.png)
 
 ### [\#](create-emulator.html#自动创建模拟器){.header-anchor} 自动创建模拟器
 
 在初次使用
 `AIoT-IDE`开发工具时，在初始化模拟器环境时，会检测本地是否已经创建过模拟器，若本地没有创建过模拟器将会提示开发者是否要自动创建模拟器。
 
-![alt text](../../../assets/img/ide-emulator-13.7766571b.png)
+![alt text](../../../images/tools/ide-emulator-13.png)
 
 选择确定，将会在初始化环境后自动创建一个正式版模拟器。
 
-![alt text](../../../assets/img/ide-emulator-15.246e033c.png)
+![alt text](../../../images/tools/ide-emulator-15.png)
 
 选择创建所有设备模拟器，将会自动创建所有设备类型的模拟器。
 
-![alt text](../../../assets/img/ide-emulator-14.bb61fb16.png)
+![alt text](../../../images/tools/ide-emulator-14.png)
 
 ### [\#](create-emulator.html#新建模拟器){.header-anchor} 新建模拟器
 
 点击上图**新建**按钮打开模拟器创建页面。首次进入**创建模拟器页面**，镜像版本默认为`vela-miwear-watch-5.0`，输入模拟器名称后，点击**新建**即可完成创建。如下图**标签1，2，3，4**所示：
 
-![alt text](../../../assets/img/ide-emulator-3.26b588d4.png)
+![alt text](../../../images/tools/ide-emulator-3.png)
 
 除了默认的`vela-miwear-watch-5.0`镜像，还可以在上图**标签3**中，下拉选择`vela-miwear-watch-4.0`镜像和`vela-watch-4.0`镜像，如下图**标签1，2**所示：
 
-![alt text](../../../assets/img/ide-emulator-10.7e7e3458.png)
+![alt text](../../../images/tools/ide-emulator-10.png)
 
 在设备管理列表中，可对已创建的模拟器进行操作，目前提供了运行，暂停，删除等操作按钮。
 
@@ -190,7 +214,7 @@ JS 应用开发文档]{.site-name
 
     -   **重置镜像目录为默认**：用户自定义镜像目录后，可以通过重置镜像目录为将镜像运行目录重置为系统默认目录。
 
-![alt text](../../../assets/img/ide-emulator-9.a4531117.png)
+![alt text](../../../images/tools/ide-emulator-9.png)
 
 ## [\#](create-emulator.html#模拟器sdk管理){.header-anchor} 模拟器SDK管理
 
@@ -199,7 +223,7 @@ JS 应用开发文档]{.site-name
 -   模拟器内核，如下图1所示
 -   模拟器镜像，如下图2所示
 
-![alt text](../../../assets/img/ide-emulator-16.95334461.png)
+![alt text](../../../images/tools/ide-emulator-16.png)
 
 模拟器SDK管理页面中主要从四个维度展示模拟器信息
 
@@ -210,7 +234,7 @@ JS 应用开发文档]{.site-name
 
 每次启动`AIoT-IDE`时，会自动检测模拟器内核和模拟器镜像版本是否需要更新或安装，用户可以在列表的状态一栏中，查看到模拟器内核或被模拟器镜像是否安装或是否需要升级，可手动点击安装或升级，如下图1所示
 
-![alt text](../../../assets/img/ide-emulator-17.7977db80.png)
+![alt text](../../../images/tools/ide-emulator-17.png)
 
 ## [\#](create-emulator.html#设备使用配置){.header-anchor} 设备使用配置
 
@@ -221,7 +245,7 @@ JS 应用开发文档]{.site-name
 -   Hide Qt Window:
     是否使用GRPC技术将模拟器嵌入到IDE中显示，否则在IDE外部弹出显示（如下图3所示）。
 
-![alt text](../../../assets/img/ide-emulator-18.b4eaf63c.png)
+![alt text](../../../images/tools/ide-emulator-18.png)
 :::
 
 ::: page-nav

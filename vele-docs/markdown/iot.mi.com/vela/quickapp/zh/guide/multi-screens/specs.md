@@ -134,14 +134,16 @@
 
     -   [页面启动模式](../framework/other/launch-mode.html){.sidebar-link}
 
-    -   ::: {.section .sidebar-group .is-sub-group .depth-1}
-        [多屏适配](index.html){.sidebar-heading .clickable
-        .router-link-active .open}
+    -   ::: {.section .sidebar-group .collapsable .is-sub-group .depth-1}
+        [多屏适配 []{.arrow .down}](index.html){.sidebar-heading
+        .clickable .router-link-active .open}
         -   [适配规范](specs.html){.active .sidebar-link
             aria-current="page"}
         -   [代码示例](samples.html){.sidebar-link}
         -   [条件编译](conditional-compilation.html){.sidebar-link}
         :::
+
+    -   [动态组件](../framework/other/dynamic-component.html){.sidebar-link}
     :::
 
 -   ::: {.section .sidebar-group .depth-0}

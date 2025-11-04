@@ -138,13 +138,13 @@
 
     -   [页面启动模式](../../zh/guide/framework/other/launch-mode.html){.sidebar-link}
 
-    -   ::: {.section .sidebar-group .is-sub-group .depth-1}
-        [多屏适配](../../zh/guide/multi-screens/index.html){.sidebar-heading
+    -   ::: {.section .sidebar-group .collapsable .is-sub-group .depth-1}
+        [多屏适配 []{.arrow
+        .right}](../../zh/guide/multi-screens/index.html){.sidebar-heading
         .clickable}
-        -   [适配规范](../../zh/guide/multi-screens/specs.html){.sidebar-link}
-        -   [代码示例](../../zh/guide/multi-screens/samples.html){.sidebar-link}
-        -   [条件编译](../../zh/guide/multi-screens/conditional-compilation.html){.sidebar-link}
         :::
+
+    -   [动态组件](../../zh/guide/framework/other/dynamic-component.html){.sidebar-link}
     :::
 
 -   ::: {.section .sidebar-group .depth-0}

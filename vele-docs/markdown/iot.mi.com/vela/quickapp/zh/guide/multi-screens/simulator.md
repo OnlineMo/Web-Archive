@@ -136,12 +136,12 @@
 
     -   [页面启动模式](../framework/other/launch-mode.html){.sidebar-link}
 
-    -   ::: {.section .sidebar-group .is-sub-group .depth-1}
-        [多屏适配](index.html){.sidebar-heading .clickable}
-        -   [适配规范](specs.html){.sidebar-link}
-        -   [代码示例](samples.html){.sidebar-link}
-        -   [条件编译](conditional-compilation.html){.sidebar-link}
+    -   ::: {.section .sidebar-group .collapsable .is-sub-group .depth-1}
+        [多屏适配 []{.arrow .right}](index.html){.sidebar-heading
+        .clickable}
         :::
+
+    -   [动态组件](../framework/other/dynamic-component.html){.sidebar-link}
     :::
 
 -   ::: {.section .sidebar-group .depth-0}

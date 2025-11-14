@@ -173,10 +173,10 @@ const event = require('@system.event')
 
 #### [\#](event.html#options-参数){.header-anchor} options 参数：
 
-  参数名        类型     必填   说明
-  ------------- -------- ------ ----------------------------------------------
-  params        Object   否     事件参数
-  permissions   Array    否     订阅者的权限，拥有权限的包才能收到发送的事件
+  参数名        类型              必填   说明
+  ------------- ----------------- ------ ----------------------------------------------
+  params        Object            否     事件参数
+  permissions   Array\<String\>   否     订阅者的权限，拥有权限的包才能收到发送的事件
 
 #### [\#](event.html#系统支持的公共事件){.header-anchor} 系统支持的公共事件：
 

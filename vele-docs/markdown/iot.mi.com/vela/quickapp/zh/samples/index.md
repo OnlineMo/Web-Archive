@@ -100,9 +100,9 @@ title="日历应用是一种方便用户记录、安排和跟踪重要事件和�
 v-24a7b769=""}
 
 ::: {.repos v-24a7b769=""}
-[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_fe_examples/tree/trunk/calendar){target="_blank"
+[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_apps/tree/dev/wearable/calendar){target="_blank"
 v-24a7b769=""}
-[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_fe_examples/tree/trunk/calendar){target="_blank"
+[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_apps/tree/dev/wearable/calendar){target="_blank"
 v-24a7b769=""}
 :::
 :::
@@ -120,9 +120,9 @@ title="图表快应用是一款数据可视化工具，能够快速、简单地�
 v-24a7b769=""}
 
 ::: {.repos v-24a7b769=""}
-[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_fe_examples/tree/trunk/chart){target="_blank"
+[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_apps/tree/dev/wearable/chart){target="_blank"
 v-24a7b769=""}
-[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_fe_examples/tree/trunk/chart){target="_blank"
+[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_apps/tree/dev/wearable/chart){target="_blank"
 v-24a7b769=""}
 :::
 :::
@@ -141,9 +141,9 @@ title="计算器快应用UI已适配方屏、圆屏、跑道屏，基于不同�
 v-24a7b769=""}
 
 ::: {.repos v-24a7b769=""}
-[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_fe_examples/tree/trunk/multi-screen-calculator){target="_blank"
+[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_apps/tree/dev/wearable/multi-screen-calculator){target="_blank"
 v-24a7b769=""}
-[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_fe_examples/tree/trunk/multi-screen-calculator){target="_blank"
+[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_apps/tree/dev/wearable/multi-screen-calculator){target="_blank"
 v-24a7b769=""}
 :::
 :::
@@ -162,9 +162,9 @@ title="任务清单快应用是一款简单易用的任务管理工具，可以�
 v-24a7b769=""}
 
 ::: {.repos v-24a7b769=""}
-[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_fe_examples/tree/trunk/multi_screen_todolist){target="_blank"
+[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_apps/tree/dev/wearable/multi_screen_todolist){target="_blank"
 v-24a7b769=""}
-[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_fe_examples/tree/trunk/multi_screen_todolist){target="_blank"
+[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_apps/tree/dev/wearable/multi_screen_todolist){target="_blank"
 v-24a7b769=""}
 :::
 :::
@@ -182,9 +182,9 @@ title="这是一个高效、易于使用的播放器快应用。该应用具有�
 v-24a7b769=""}
 
 ::: {.repos v-24a7b769=""}
-[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_fe_examples/tree/trunk/player){target="_blank"
+[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_apps/tree/dev/wearable/player){target="_blank"
 v-24a7b769=""}
-[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_fe_examples/tree/trunk/player){target="_blank"
+[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_apps/tree/dev/wearable/player){target="_blank"
 v-24a7b769=""}
 :::
 :::
@@ -202,9 +202,9 @@ title="这是一个设置应用UI并已支持多屏适配，基于此开发可�
 v-24a7b769=""}
 
 ::: {.repos v-24a7b769=""}
-[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_fe_examples/tree/trunk/settings){target="_blank"
+[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_apps/tree/dev/wearable/settings){target="_blank"
 v-24a7b769=""}
-[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_fe_examples/tree/trunk/settings){target="_blank"
+[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_apps/tree/dev/wearable/settings){target="_blank"
 v-24a7b769=""}
 :::
 :::
@@ -224,6 +224,27 @@ v-24a7b769=""}
 
 ::: {.repos v-24a7b769=""}
 [![](../../images/github.svg){v-24a7b769=""}](https://github.com/NEORUAA/Vela_input_method){target="_blank"
+v-24a7b769=""}
+:::
+:::
+:::
+
+::: {.sample-container v-24a7b769="" v-34c8c950=""}
+::: {.image-wrapper v-24a7b769=""}
+![封面](../../images/sample/publish_subscribe.png){.sample-poster
+v-24a7b769=""}
+:::
+
+::: {.sample-meta v-24a7b769=""}
+[订阅发布]{.sample-title v-24a7b769=""} [这款 Demo 基于经典的订阅 -
+发布（Pub/Sub）设计模式，提供轻量、灵活的跨模块通信方案，无需模块间直接依赖即可实现消息传递。核心功能包括事件订阅（\$on）、消息发布（\$emit）、订阅取消（\$off）及事件存在判断（\$judge），支持多场景下的异步通信需求。无论是前端组件间协作、插件模块联动，都能通过简单调用实现高效消息传递，帮助简化代码依赖关系、提升项目可维护性。代码可直接集成到Vela快应用项目中，是学习设计模式、解决跨模块通信问题的实用参考。]{.sample-desc
+title="这款 Demo 基于经典的订阅 - 发布（Pub/Sub）设计模式，提供轻量、灵活的跨模块通信方案，无需模块间直接依赖即可实现消息传递。核心功能包括事件订阅（$on）、消息发布（$emit）、订阅取消（$off）及事件存在判断（$judge），支持多场景下的异步通信需求。无论是前端组件间协作、插件模块联动，都能通过简单调用实现高效消息传递，帮助简化代码依赖关系、提升项目可维护性。代码可直接集成到Vela快应用项目中，是学习设计模式、解决跨模块通信问题的实用参考。"
+v-24a7b769=""}
+
+::: {.repos v-24a7b769=""}
+[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_apps/tree/dev/wearable/eventBus){target="_blank"
+v-24a7b769=""}
+[![](../../images/gitee.svg){v-24a7b769=""}](https://gitee.com/open-vela/packages_apps/tree/dev/wearable/eventBus){target="_blank"
 v-24a7b769=""}
 :::
 :::

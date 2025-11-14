@@ -301,7 +301,7 @@ connect.diagnosis({
 
   参数名    类型       必填   说明
   --------- ---------- ------ ------------
-  data      Object     否     发送的数据
+  data      Object     是     发送的数据
   success   Function   否     成功回调
   fail      Function   否     失败回调
 
@@ -330,7 +330,10 @@ connect.diagnosis({
 ::: {.language-javascript .extra-class}
 ``` language-javascript
 connect.send({
-  data: {},
+  data: {
+    str: 'test',
+    num: 123
+  },
   success: ()=>{
     console.log(`handling success`)
   },
@@ -377,7 +380,7 @@ connect.onmessage = (data) => {
 
 ::: {.language-javascript .extra-class}
 ``` language-javascript
-connect.onOpen = function (data) {
+connect.onopen = function (data) {
   console.log('connection opened isReconnected: ', data.isReconnected)
 }
 ```

@@ -160,6 +160,8 @@ const sensor = require('@system.sensor')
 
 ## [\#](sensor.html#接口定义){.header-anchor} 接口定义
 
+### [\#](sensor.html#方法){.header-anchor} 方法
+
 ### [\#](sensor.html#sensor-subscribepressure-object){.header-anchor} sensor.subscribePressure(OBJECT) {#sensor-subscribepressure-object}
 
 监听压力、压强感应数据。如果多次调用，仅最后一次调用生效
@@ -173,8 +175,8 @@ const sensor = require('@system.sensor')
 #### [\#](sensor.html#callback-返回值){.header-anchor} callback 返回值：
 
   参数名     类型     说明
-  ---------- -------- ---------------------------------------------------------
-  pressure   Number   压力、压强，单位hpa，百帕。小数点后四舍五入保留五位小数
+  ---------- -------- -----------------------------------
+  pressure   Number   压力、压强，单位hpa，百帕，浮点数
 
 #### [\#](sensor.html#示例){.header-anchor} 示例：
 
@@ -226,11 +228,11 @@ sensor.unsubscribePressure()
 
 #### [\#](sensor.html#callback-返回值-2){.header-anchor} callback 返回值： {#callback-返回值-2}
 
-  参数名   类型      说明
-  -------- --------- ----------
-  x        Integer   x 轴坐标
-  y        Integer   y 轴坐标
-  z        Integer   z 轴坐标
+  参数名   类型     说明
+  -------- -------- ----------
+  x        Number   x 轴坐标
+  y        Number   y 轴坐标
+  z        Number   z 轴坐标
 
 #### [\#](sensor.html#示例-3){.header-anchor} 示例： {#示例-3}
 
@@ -247,7 +249,7 @@ sensor.subscribeAccelerometer({
 ```
 :::
 
-### [\#](sensor.html#sensor-unsubscribeaccelerometer-object){.header-anchor} sensor.unsubscribeAccelerometer(OBJECT) {#sensor-unsubscribeaccelerometer-object}
+### [\#](sensor.html#sensor-unsubscribeaccelerometer){.header-anchor} sensor.unsubscribeAccelerometer() {#sensor-unsubscribeaccelerometer}
 
 取消监听加速度感应数据
 
@@ -263,14 +265,80 @@ sensor.unsubscribeAccelerometer()
 ```
 :::
 
+### [\#](sensor.html#sensor-subscribecompass-object){.header-anchor} sensor.subscribeCompass(OBJECT) {#sensor-subscribecompass-object}
+
+监听罗盘数据。如果多次调用，仅最后一次调用生效
+
+#### [\#](sensor.html#参数-5){.header-anchor} 参数： {#参数-5}
+
+  参数名     类型       必填   说明
+  ---------- ---------- ------ ----------------------------
+  callback   Function   是     罗盘数据变化后会回调此函数
+  fail       Function   否     订阅失败回调
+
+#### [\#](sensor.html#callback-返回值-3){.header-anchor} callback 返回值： {#callback-返回值-3}
+
+  参数名      类型     说明
+  ----------- -------- -------------------------------------------------------------------------------------------------------
+  direction   Number   表示设备的 y 轴和地球磁场北极之间的角度，当面朝北，角度为 0；朝南角度为 π；朝东角度 π/2；朝西角度-π/2
+  accuracy    Number   精度，详见compass精度说明
+
+#### [\#](sensor.html#fail-返回错误代码){.header-anchor} fail 返回错误代码：
+
+  错误码   说明
+  -------- --------------------------
+  1000     当前设备不支持罗盘传感器
+
+#### [\#](sensor.html#示例-5){.header-anchor} 示例： {#示例-5}
+
+::: {.language-javascript .extra-class}
+``` language-javascript
+sensor.subscribeCompass({
+  callback: function (res) {
+    console.log(`handling subscribeCompass callback, direction = ${res.direction}, accuracy = ${res.accuracy}`)
+  },
+  fail: function (data, code) {
+    console.log(`handling subscribeCompass fail, code = ${code}`)
+  }
+})
+```
+:::
+
+### [\#](sensor.html#sensor-unsubscribecompass){.header-anchor} sensor.unsubscribeCompass() {#sensor-unsubscribecompass}
+
+取消监听加速度感应数据
+
+#### [\#](sensor.html#参数-6){.header-anchor} 参数： {#参数-6}
+
+无
+
+#### [\#](sensor.html#示例-6){.header-anchor} 示例： {#示例-6}
+
+::: {.language-javascript .extra-class}
+``` language-javascript
+sensor.unsubscribeCompass()
+```
+:::
+
+### [\#](sensor.html#compass精度说明){.header-anchor} compass精度说明：
+
+  值   说明
+  ---- ------------------------
+  3    高精度
+  2    中等精度
+  1    低精度
+  -1   不可信，传感器失去连接
+  0    不可信，原因未知
+
 ## [\#](sensor.html#支持明细){.header-anchor} 支持明细
 
-  接口                       已支持设备产品                                     不支持设备产品
-  -------------------------- -------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------
-  subscribePressure          Xiaomi Watch S3、小米手环 9 Pro、Xiaomi Watch S4   小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9、Redmi Watch 4、Xiaomi Watch H1、REDMI Watch 5
-  unsubscribePressure        Xiaomi Watch S3、小米手环 9 Pro、Xiaomi Watch S4   小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9、Redmi Watch 4、Xiaomi Watch H1、REDMI Watch 5
-  subscribeAccelerometer     小米手环 9、小米手环 9 Pro                         Xiaomi Watch S3、小米 S1 Pro 运动健康手表、小米手环 8 Pro、Redmi Watch 4、Xiaomi Watch H1、Xiaomi Watch S4、REDMI Watch 5
-  unsubscribeAccelerometer   小米手环 9、小米手环 9 Pro                         Xiaomi Watch S3、小米 S1 Pro 运动健康手表、小米手环 8 Pro、Redmi Watch 4、Xiaomi Watch H1、Xiaomi Watch S4、REDMI Watch 5
+  接口                                    已支持设备产品                                                  不支持设备产品
+  --------------------------------------- --------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------
+  subscribePressure                       Xiaomi Watch S3、小米手环 9 Pro、小米手环 10、Xiaomi Watch S4   小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9、Redmi Watch 4、Xiaomi Watch H1、REDMI Watch 5
+  unsubscribePressure                     Xiaomi Watch S3、小米手环 9 Pro、小米手环 10、Xiaomi Watch S4   小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9、Redmi Watch 4、Xiaomi Watch H1、REDMI Watch 5
+  subscribeAccelerometer                  小米手环 9 / 9 Pro、小米手环 10                                 Xiaomi Watch S3、小米 S1 Pro 运动健康手表、小米手环 8 Pro、Redmi Watch 4、Xiaomi Watch H1、Xiaomi Watch S4、REDMI Watch 5
+  unsubscribeAccelerometer                小米手环 9 / 9 Pro、小米手环 10                                 Xiaomi Watch S3、小米 S1 Pro 运动健康手表、小米手环 8 Pro、Redmi Watch 4、Xiaomi Watch H1、Xiaomi Watch S4、REDMI Watch 5
+  subscribeCompass / unsubscribeCompass   Xiaomi Watch S4、REDMI Watch 5                                  其余小米环表设备
 :::
 
 ::: page-nav
@@ -297,6 +365,10 @@ event](event.html) → ]{.next}
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h3}
+[方法](sensor.html#方法 "方法")
+:::
+
+::: {.vuepress-toc-item .vuepress-toc-h3}
 [sensor.subscribePressure(OBJECT)](sensor.html#sensor-subscribepressure-object "sensor.subscribePressure(OBJECT)")
 :::
 
@@ -309,7 +381,19 @@ event](event.html) → ]{.next}
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h3}
-[sensor.unsubscribeAccelerometer(OBJECT)](sensor.html#sensor-unsubscribeaccelerometer-object "sensor.unsubscribeAccelerometer(OBJECT)")
+[sensor.unsubscribeAccelerometer()](sensor.html#sensor-unsubscribeaccelerometer "sensor.unsubscribeAccelerometer()")
+:::
+
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[sensor.subscribeCompass(OBJECT)](sensor.html#sensor-subscribecompass-object "sensor.subscribeCompass(OBJECT)")
+:::
+
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[sensor.unsubscribeCompass()](sensor.html#sensor-unsubscribecompass "sensor.unsubscribeCompass()")
+:::
+
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[compass精度说明：](sensor.html#compass精度说明 "compass精度说明：")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h2}

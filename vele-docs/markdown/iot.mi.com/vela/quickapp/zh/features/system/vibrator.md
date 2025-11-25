@@ -277,12 +277,12 @@ vibrator.getSystemDefaultMode()
 
 ## [\#](vibrator.html#支持明细){.header-anchor} 支持明细
 
-  接口                   已支持设备产品                                                                                                                                          不支持设备产品
-  ---------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------
-  vibrate                小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9、Redmi Watch 4、Xiaomi Watch H1、Xiaomi Watch S3、小米手环 9 Pro、Xiaomi Watch S4、REDMI Watch 5   \-
-  start                  \-                                                                                                                                                      Xiaomi Watch S3、小米手环 9 Pro、Xiaomi Watch S4、REDMI Watch 5、小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9、Redmi Watch 4、Xiaomi Watch H1
-  stop                   \-                                                                                                                                                      Xiaomi Watch S3、小米手环 9 Pro、Xiaomi Watch S4、REDMI Watch 5、小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9、Redmi Watch 4、Xiaomi Watch H1
-  getSystemDefaultMode   \-                                                                                                                                                      Xiaomi Watch S3、小米手环 9 Pro、Xiaomi Watch S4、REDMI Watch 5、小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9、Redmi Watch 4、Xiaomi Watch H1
+  接口                   已支持设备产品                                                                                                                                               不支持设备产品
+  ---------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------
+  vibrate                小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9 / 9 Pro、Redmi Watch 4、Xiaomi Watch H1、Xiaomi Watch S3、小米手环 10、Xiaomi Watch S4、REDMI Watch 5   \-
+  start                  \-                                                                                                                                                           Xiaomi Watch S3、Xiaomi Watch S4、REDMI Watch 5、小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9 / 9 Pro、小米手环 10、Redmi Watch 4、Xiaomi Watch H1
+  stop                   \-                                                                                                                                                           Xiaomi Watch S3、Xiaomi Watch S4、REDMI Watch 5、小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9 / 9 Pro、小米手环 10、Redmi Watch 4、Xiaomi Watch H1
+  getSystemDefaultMode   \-                                                                                                                                                           Xiaomi Watch S3、Xiaomi Watch S4、REDMI Watch 5、小米 S1 Pro 运动健康手表、小米手环 8 Pro、小米手环 9 / 9 Pro、小米手环 10、Redmi Watch 4、Xiaomi Watch H1
 :::
 
 ::: page-nav

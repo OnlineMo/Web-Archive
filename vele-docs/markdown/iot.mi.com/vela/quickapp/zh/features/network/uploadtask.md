@@ -232,7 +232,7 @@ const retUploadTask = uploadtask.uploadFile({
     console.log("Upload success.resp = " + JSON.stringify(res))
   },
   fail: function(data, code) {
-    console.log(`handling fail, errMsg = ${data)}`)
+    console.log(`handling fail, errMsg = ${data}`)
     console.log(`handling fail, errCode = ${code}`)
   }
 })

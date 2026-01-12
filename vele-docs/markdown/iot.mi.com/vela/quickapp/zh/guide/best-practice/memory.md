@@ -295,18 +295,33 @@ export default {
 
 ::: {.language-js .extra-class}
 ``` language-js
-let foo = await storage.getItem('key')
-let bar = await file.readText('path')
+let fileData; // 读取文件数据
+let storageData; // 读取storage数据
 
-let fooObj = JSON.parse(foo)
-let barObj = JSON.parse(bar)
+file.readText({
+  uri: 'internal://files/work/demo.txt',
+  success: function(data) {
+    fileData = data.text;
+    console.log('text: ' + data.text)
+  },
+  fail: function(data, code) {
+    console.log(`handling fail, code = ${code}`)
+  }
+});
+storage.get({
+  key: 'A1',
+  success: function(data) {
+    storageData = data;
+    console.log('handling success')
+  },
+  fail: function(data, code) {
+    console.log(`handling fail, code = ${code}`)
+  }
+})
 
 // 用完后及时释放
-foo = null
-bar = null
-
-fooObj = null
-barObj = null
+fileData = null;
+storageData = null;
 ```
 :::
 

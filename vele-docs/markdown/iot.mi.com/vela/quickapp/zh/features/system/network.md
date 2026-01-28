@@ -172,7 +172,7 @@ const network = require('@system.network')
   fail       Function   否     失败回调，可能是因为缺乏权限
   complete   Function   否     执行结束后的回调
 
-#### [\#](network.html#success-返回值){.header-anchor} success 返回值：
+#### [\#](network.html#success-返回object值){.header-anchor} success 返回Object值：
 
   参数名   类型     说明
   -------- -------- --------------------------------------------------------------------
@@ -201,7 +201,7 @@ network.getType({
   callback   Function   否     每次网络发生变化，都会被回调
   fail       Function   否     失败回调，可能是因为缺乏权限
 
-#### [\#](network.html#callback-返回值){.header-anchor} callback 返回值：
+#### [\#](network.html#callback-返回object值){.header-anchor} callback 返回Object值：
 
   参数名   类型     说明
   -------- -------- ----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -213,7 +213,7 @@ network.getType({
 ``` language-javascript
 network.subscribe({
   callback: function(data) {
-    console.log('handling callback')
+    console.log(`handling callback ${data.type}`)
   }
 })
 ```

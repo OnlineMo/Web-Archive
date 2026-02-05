@@ -379,6 +379,7 @@ dp 数值 = 物理分辨率 / 设备像素比(device pixel ratio)
   小米手环 10                支持
   Xiaomi Watch S4            支持
   REDMI Watch 5              支持
+  REDMI Watch 6              支持
 :::
 
 ::: page-nav

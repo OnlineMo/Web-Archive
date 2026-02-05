@@ -378,6 +378,7 @@ center。如果使用三个或四个值，则长度百分比值是前面关键�
   小米手环 10                支持
   Xiaomi Watch S4            支持
   REDMI Watch 5              支持
+  REDMI Watch 6              支持
 :::
 
 ::: page-nav

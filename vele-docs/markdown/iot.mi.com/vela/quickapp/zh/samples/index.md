@@ -249,6 +249,32 @@ v-24a7b769=""}
 :::
 :::
 :::
+
+::: {.sample-container v-24a7b769="" v-34c8c950=""}
+::: {.image-wrapper v-24a7b769=""}
+![封面](../../images/sample/parent-child_component_communication.png){.sample-poster
+v-24a7b769=""}
+:::
+
+::: {.sample-meta v-24a7b769=""}
+[父子组件通信]{.sample-title v-24a7b769=""} [该示例聚焦 Vela
+快应用父子组件通信场景，核心实现三大功能：① 父组件通过 props
+向子组件传递数据，遵循单向数据流原则；② 子组件通过 \$emit
+触发自定义事件，父组件监听并接收子组件传递的参数；③ 子组件通过
+\$dispatch
+实现事件向上冒泡传递。示例代码结构清晰、可直接运行，能帮助开发者快速掌握
+Vela 快应用父子组件的通信逻辑与最佳实践。]{.sample-desc
+title="该示例聚焦 Vela 快应用父子组件通信场景，核心实现三大功能：① 父组件通过 props 向子组件传递数据，遵循单向数据流原则；② 子组件通过 $emit 触发自定义事件，父组件监听并接收子组件传递的参数；③ 子组件通过 $dispatch 实现事件向上冒泡传递。示例代码结构清晰、可直接运行，能帮助开发者快速掌握 Vela 快应用父子组件的通信逻辑与最佳实践。"
+v-24a7b769=""}
+
+::: {.repos v-24a7b769=""}
+[![](../../images/github.svg){v-24a7b769=""}](https://github.com/open-vela/packages_apps/tree/dev/wearable/parentChildComp){target="_blank"
+v-24a7b769=""}
+[![](../../images/gitee.svg){v-24a7b769=""}](https://github.com/open-vela/packages_apps/tree/dev/wearable/parentChildComp){target="_blank"
+v-24a7b769=""}
+:::
+:::
+:::
 :::
 :::
 :::

@@ -285,6 +285,7 @@ event.unsubscribe({ id: evtId })
   Xiaomi Watch S4            支持
   REDMI Watch 5              支持
   REDMI Watch 6              支持
+  Xiaomi Watch S5            支持
 :::
 
 ::: page-nav

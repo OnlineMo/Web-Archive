@@ -207,7 +207,8 @@ text](../../../images/tools/ide-emulator-24.png)
 
 ![alt text](../../../images/tools/ide-emulator-30.png)
 
-3 获取日志 在真机调试面板中点击获取日志，可直接拉取真机上的日志
+3 获取日志
+在真机调试面板中点击获取日志，可直接拉取真机上的日志，获取的日志数量取决于该设备内核日志的缓冲区的大小。
 
 ![alt text](../../../images/tools/ide-emulator-31.png)
 

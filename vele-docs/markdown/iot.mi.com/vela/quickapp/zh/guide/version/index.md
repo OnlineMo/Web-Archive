@@ -87,7 +87,7 @@
     [快速入门](https://iot.mi.com/vela/quickapp/zh/guide/start){.sidebar-heading
     .clickable}
     -   [安装环境](../start/use-ide.html){.sidebar-link}
-    -   [项目结构](../start/project-overview.html){.sidebar-link}
+    -   [项目概览](../start/project-overview.html){.sidebar-link}
     -   [编写页面UI](../start/user-interface.html){.sidebar-link}
     -   [添加交互](../start/add-interactivity.html){.sidebar-link}
     -   [数据获取](../start/data-fetch.html){.sidebar-link}

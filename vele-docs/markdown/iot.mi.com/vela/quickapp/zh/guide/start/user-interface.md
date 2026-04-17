@@ -87,7 +87,7 @@
     [快速入门](https://iot.mi.com/vela/quickapp/zh/guide/start){.sidebar-heading
     .clickable .router-link-active .open}
     -   [安装环境](use-ide.html){.sidebar-link}
-    -   [项目结构](project-overview.html){.sidebar-link}
+    -   [项目概览](project-overview.html){.sidebar-link}
     -   [编写页面UI](user-interface.html){.active .sidebar-link
         aria-current="page"}
     -   [添加交互](add-interactivity.html){.sidebar-link}
@@ -874,7 +874,7 @@ CSS代码如下：
 :::
 
 ::: page-nav
-[ ← [项目结构](project-overview.html){.prev} ]{.prev} [
+[ ← [项目概览](project-overview.html){.prev} ]{.prev} [
 [添加交互](add-interactivity.html) → ]{.next}
 :::
 :::

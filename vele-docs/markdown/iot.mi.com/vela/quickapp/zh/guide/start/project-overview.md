@@ -87,7 +87,7 @@
     [快速入门](https://iot.mi.com/vela/quickapp/zh/guide/start){.sidebar-heading
     .clickable .router-link-active .open}
     -   [安装环境](use-ide.html){.sidebar-link}
-    -   [项目结构](project-overview.html){.active .sidebar-link
+    -   [项目概览](project-overview.html){.active .sidebar-link
         aria-current="page"}
     -   [编写页面UI](user-interface.html){.sidebar-link}
     -   [添加交互](add-interactivity.html){.sidebar-link}
@@ -183,123 +183,87 @@
 
 ::: {.page role="main"}
 ::: {.theme-default-content .content__default}
-# [\#](project-overview.html#项目结构){.header-anchor} 项目结构
+# [\#](project-overview.html#项目概览){.header-anchor} 项目概览
 
-这个章节将基于[安装环境](use-ide.html)中初始化的项目， 来讲解 Vela JS
-应用项目中的各部分的作用。
+本章节基于[安装环境](use-ide.html)中初始化的项目，介绍 Vela JS
+应用项目各部分的作用。
 
 ## [\#](project-overview.html#目录结构){.header-anchor} 目录结构
-
-Vela JS 应用项目由配置文件（manifest.json）、模板代码（ux文件）、
-样式代码（css文件）、逻辑代码（js文件）以及资源文件（图片、音频等）组成。
 
 典型的项目目录结构如下：
 
 ::: {.language-bash .extra-class}
 ``` language-bash
-├── manifest.json
-├── app.ux
-├── pages
-│   ├── index
-|   |   └── index.ux
-│   └── detail
-|       └── detail.ux
-├── i18n
-|   ├── defaults.json
-|   ├── zh-CN.json
-|   └── en-US.json
-└── common
-    ├── style.css
-    ├── utils.js
-    └── logo.png
+├── README.md            # 项目说明文件
+├── package.json         # 项目配置文件
+├── build/               # 构建中间产物
+├── dist/                # 最终构建产物
+├── sign/                # 签名文件
+│   ├── certificate.pem
+│   └── private.pem
+└── src/                 # 源码目录
+    ├── app.ux           # 应用入口文件
+    ├── manifest.json    # 项目配置文件
+    ├── common/          # 公共资源目录
+    │   ├── components/  # 组件目录
+    │   │   └── button.ux
+    │   ├── images/      # 图片目录
+    │   │   └── logo.png
+    │   └── scripts/     # 脚本目录
+    │       └── index.js
+    ├── i18n/            # 多语言配置目录
+    │   ├── defaults.json
+    │   ├── en.json
+    │   └── zh-CN.json
+    └── pages/           # 页面目录
+        ├── detail/detail.ux
+        └── index/index.ux
 ```
 :::
 
-## [\#](project-overview.html#配置文件){.header-anchor} 配置文件
+## [\#](project-overview.html#各目录说明){.header-anchor} 各目录说明
 
-项目根目录中的`manifest.json`文件为项目的配置文件，应用信息、使用到的系统接口以及页面路由等信息需要在这个配置文件中声明。
+### [\#](project-overview.html#src){.header-anchor} src/
 
-详细配置字段说明可以参考[项目配置](../framework/manifest.html)。
+源码目录，所有应用代码都放在这里。`src/` 是固定的目录名称，不可更改。
 
-## [\#](project-overview.html#ux模板){.header-anchor} ux模板
+### [\#](project-overview.html#src-manifest-json){.header-anchor} src/manifest.json {#src-manifest-json}
 
-一个页面通常都由三部分组成：页面结构、样式和逻辑交互。这三部分，可以放在一个ux文件中，也可以作为独立的文件。
+项目配置文件，用于声明应用基本信息（包名、版本等）、系统接口权限以及页面路由。详细字段说明参考[项目配置](../framework/manifest.html)。
 
-如果放在一个ux文件中，则ux文件需要包含三标签：`template`、`style`和`script`。
+### [\#](project-overview.html#src-app-ux){.header-anchor} src/app.ux {#src-app-ux}
 
-示例：
+应用入口文件，用于定义应用级别的生命周期回调、全局数据和全局方法。详细用法参考
+[app.ux](../framework/ux.html#appux)。
 
-::: {.language-html .extra-class}
-``` language-html
-<template>
-  <div class="page">
-    <text class="title">欢迎打开{{title}}</text>
-    <input class="btn" type="button" value="跳转到详情页" onclick="routeDetail">
-  </div>
-</template>
+### [\#](project-overview.html#src-pages){.header-anchor} src/pages/ {#src-pages}
 
-<style>
-  .btn {
-    width: 400px;
-    height: 60px;
-    background-color: #09ba07;
-    color: #ffffff;
-  }
-</style>
+页面目录，每个页面对应一个子目录。页面由 ux
+文件描述，也可以将样式和逻辑拆分为独立的 css/js
+文件。详细说明参考[项目结构](../framework/project-structure.html)。
 
-<script>
-  import router from '@system.router'
+### [\#](project-overview.html#src-common){.header-anchor} src/common/ {#src-common}
 
-  export default {
-    // 页面数据对象
-    private: {
-      title: '示例页面'
-    },
-    // 按钮点击后的回调
-    routeDetail() {
-      router.push({
-        uri: '/pages/detail'
-      })
-    }
-  }
-</script>
-```
-:::
+公共资源目录，用于存放跨页面共享的组件、图片、脚本和样式等资源。
 
-如果将页面结构、样式和逻辑交互分开作为独立的文件，可以使用如下目录结构：
+### [\#](project-overview.html#src-i18n){.header-anchor} src/i18n/ {#src-i18n}
 
-::: {.language-bash .extra-class}
-``` language-bash
-├── ...
-├── pages
-│   ├── ...
-│   └── detail
-|       ├── detail.ux
-|       ├── detail.css
-|       └── detail.js
-├── ...
-```
-:::
+多语言配置目录，存放各语言对应的 JSON
+文件，用于实现应用的国际化。详细用法参考[多语言](../framework/other/i18n.html)。
 
-::: {.custom-block .tip}
-说明
+### [\#](project-overview.html#build-和-dist){.header-anchor} build/ 和 dist/
 
-如果作为独立的文件，将ux/css/js文件分开后，ux文件中不能包含`template`标签。
-:::
+`build/` 存放构建过程中的中间产物，`dist/` 存放最终的构建输出文件（rpk
+包）。这两个目录由构建工具自动生成，无需手动维护。
 
-## [\#](project-overview.html#app-ux){.header-anchor} app.ux {#app-ux}
+### [\#](project-overview.html#sign){.header-anchor} sign/
 
-`app.ux`用于定义App的生命周期、全局数据或者全局方法。
+签名文件目录，包含 `certificate.pem`（证书）和
+`private.pem`（私钥），用于对应用包进行签名。
 
-详细使用方法可以参考[app.ux](../framework/ux.html#appux)。
+### [\#](project-overview.html#package-json){.header-anchor} package.json {#package-json}
 
-## [\#](project-overview.html#common){.header-anchor} common
-
-`common`文件夹主要用来存放公共的资源，比如图片、音频和公共样式等。
-
-## [\#](project-overview.html#i18n){.header-anchor} i18n
-
-`i18n`文件夹用来存放多语言配置文件。
+项目的 npm 配置文件，定义项目依赖和构建脚本。
 :::
 
 ::: page-nav
@@ -318,23 +282,43 @@ Vela JS 应用项目由配置文件（manifest.json）、模板代码（ux文件
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h2}
-[配置文件](project-overview.html#配置文件 "配置文件")
+[各目录说明](project-overview.html#各目录说明 "各目录说明")
 :::
 
-::: {.vuepress-toc-item .vuepress-toc-h2}
-[ux模板](project-overview.html#ux模板 "ux模板")
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[src/](project-overview.html#src "src/")
 :::
 
-::: {.vuepress-toc-item .vuepress-toc-h2}
-[app.ux](project-overview.html#app-ux "app.ux")
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[src/manifest.json](project-overview.html#src-manifest-json "src/manifest.json")
 :::
 
-::: {.vuepress-toc-item .vuepress-toc-h2}
-[common](project-overview.html#common "common")
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[src/app.ux](project-overview.html#src-app-ux "src/app.ux")
 :::
 
-::: {.vuepress-toc-item .vuepress-toc-h2}
-[i18n](project-overview.html#i18n "i18n")
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[src/pages/](project-overview.html#src-pages "src/pages/")
+:::
+
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[src/common/](project-overview.html#src-common "src/common/")
+:::
+
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[src/i18n/](project-overview.html#src-i18n "src/i18n/")
+:::
+
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[build/ 和 dist/](project-overview.html#build-和-dist "build/ 和 dist/")
+:::
+
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[sign/](project-overview.html#sign "sign/")
+:::
+
+::: {.vuepress-toc-item .vuepress-toc-h3}
+[package.json](project-overview.html#package-json "package.json")
 :::
 :::
 :::

@@ -212,6 +212,10 @@
 7.  谨慎使用三方依赖，使用轻量级的依赖
 8.  公共代码可以考虑放到全局，不要多次引入
 9.  添加loading态，防止按钮频繁点击后发起多次网络请求
+
+## [\#](tips.html#选择器使用建议){.header-anchor} 选择器使用建议
+
+详情见：[style 样式](../framework/style/index.html)
 :::
 
 ::: page-nav
@@ -234,6 +238,10 @@
 
 ::: {.vuepress-toc-item .vuepress-toc-h2}
 [常见优化](tips.html#常见优化 "常见优化")
+:::
+
+::: {.vuepress-toc-item .vuepress-toc-h2}
+[选择器使用建议](tips.html#选择器使用建议 "选择器使用建议")
 :::
 :::
 :::

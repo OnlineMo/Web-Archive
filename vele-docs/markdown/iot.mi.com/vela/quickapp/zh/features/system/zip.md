@@ -123,6 +123,7 @@
     -   [系统音量 volume](volume.html){.sidebar-link}
     -   [解压缩 zip](zip.html){.active .sidebar-link
         aria-current="page"}
+    -   [蓝牙 bluetooth](bluetooth.html){.sidebar-link}
     :::
 
 -   ::: {.section .sidebar-group .depth-0}
@@ -204,8 +205,8 @@ zip.decompress({
 :::
 
 ::: page-nav
-[ ← [系统音量 volume](volume.html){.prev} ]{.prev} [ [密码算法
-crypto](../security/crypto.html) → ]{.next}
+[ ← [系统音量 volume](volume.html){.prev} ]{.prev} [ [蓝牙
+bluetooth](bluetooth.html) → ]{.next}
 :::
 :::
 

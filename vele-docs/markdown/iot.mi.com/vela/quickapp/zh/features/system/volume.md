@@ -123,6 +123,7 @@
     -   [系统音量 volume](volume.html){.active .sidebar-link
         aria-current="page"}
     -   [解压缩 zip](zip.html){.sidebar-link}
+    -   [蓝牙 bluetooth](bluetooth.html){.sidebar-link}
     :::
 
 -   ::: {.section .sidebar-group .depth-0}

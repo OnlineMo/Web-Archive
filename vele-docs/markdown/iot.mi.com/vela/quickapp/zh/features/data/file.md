@@ -124,6 +124,7 @@
     -   [电量信息 battery](../system/battery.html){.sidebar-link}
     -   [系统音量 volume](../system/volume.html){.sidebar-link}
     -   [解压缩 zip](../system/zip.html){.sidebar-link}
+    -   [蓝牙 bluetooth](../system/bluetooth.html){.sidebar-link}
     :::
 
 -   ::: {.section .sidebar-group .depth-0}

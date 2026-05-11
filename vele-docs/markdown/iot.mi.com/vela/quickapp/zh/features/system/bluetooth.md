@@ -1089,6 +1089,22 @@ BLE 的连接状态枚举。
 ## [\#](bluetooth.html#后台运行限制){.header-anchor} 后台运行限制
 
 禁止使用。
+
+## [\#](bluetooth.html#支持明细){.header-anchor} 支持明细
+
+  设备产品                   说明
+  -------------------------- --------
+  小米 S1 Pro 运动健康手表   不支持
+  小米手环 8 Pro             不支持
+  小米手环 9 / 9 Pro         不支持
+  Xiaomi Watch S3            不支持
+  Redmi Watch 4              不支持
+  小米腕部心电血压记录仪     不支持
+  小米手环 10                不支持
+  Xiaomi Watch S4            不支持
+  REDMI Watch 5              不支持
+  REDMI Watch 6              不支持
+  Xiaomi Watch S5            支持
 :::
 
 ::: page-nav
@@ -1245,6 +1261,10 @@ addressType)](bluetooth.html#bluetoothble-creategattclientdevice-deviceid-addres
 
 ::: {.vuepress-toc-item .vuepress-toc-h2}
 [后台运行限制](bluetooth.html#后台运行限制 "后台运行限制")
+:::
+
+::: {.vuepress-toc-item .vuepress-toc-h2}
+[支持明细](bluetooth.html#支持明细 "支持明细")
 :::
 :::
 :::

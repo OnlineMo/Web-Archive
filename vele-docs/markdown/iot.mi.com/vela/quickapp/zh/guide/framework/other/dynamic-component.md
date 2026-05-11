@@ -210,10 +210,8 @@
 
 <script>
   export default {
-    data() {
-      return {
-        status: 1
-      }
+    data: {
+      status: 1
     }
   }
 </script>
@@ -243,10 +241,8 @@
 
 <script>
   export default {
-    data() {
-      return {
-        status: 1
-      }
+    data: {
+      status: 1
     }
   }
 </script>

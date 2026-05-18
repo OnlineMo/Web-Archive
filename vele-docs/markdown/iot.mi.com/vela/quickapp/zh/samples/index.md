@@ -15,7 +15,7 @@
 :::
 
 ::: nav-item
-[教程](../guide/version/APILevel4.html){.nav-link}
+[教程](../tools/aiot-ide.html){.nav-link}
 :::
 
 ::: nav-item
@@ -53,7 +53,7 @@
 :::
 
 ::: nav-item
-[教程](../guide/version/APILevel4.html){.nav-link}
+[教程](../tools/aiot-ide.html){.nav-link}
 :::
 
 ::: nav-item

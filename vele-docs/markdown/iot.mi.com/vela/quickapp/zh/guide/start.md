@@ -15,7 +15,7 @@
 :::
 
 ::: nav-item
-[教程](version/APILevel4.html){.nav-link .router-link-active}
+[教程](../tools/aiot-ide.html){.nav-link .router-link-active}
 :::
 
 ::: nav-item
@@ -52,7 +52,7 @@
 :::
 
 ::: nav-item
-[教程](version/APILevel4.html){.nav-link .router-link-active}
+[教程](../tools/aiot-ide.html){.nav-link .router-link-active}
 :::
 
 ::: nav-item

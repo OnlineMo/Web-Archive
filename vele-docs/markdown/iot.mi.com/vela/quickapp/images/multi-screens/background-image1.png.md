@@ -15,8 +15,8 @@
 :::
 
 ::: nav-item
-[教程](../../zh/guide/version/APILevel4.html){.nav-link
-.router-link-exact-active .router-link-active aria-current="page"}
+[教程](../../zh/tools/aiot-ide.html){.nav-link .router-link-exact-active
+.router-link-active aria-current="page"}
 :::
 
 ::: nav-item
@@ -41,7 +41,7 @@
 
 [选择语言]{.title} []{.arrow .right}
 
--   [简体中文](../../zh/guide/version/APILevel4.html){.nav-link
+-   [简体中文](../../zh/tools/aiot-ide.html){.nav-link
     .router-link-exact-active .router-link-active aria-current="page"}
 -   [English](https://iot.mi.com/vela/quickapp/en/guide/){.nav-link}
 :::
@@ -53,8 +53,8 @@
 :::
 
 ::: nav-item
-[教程](../../zh/guide/version/APILevel4.html){.nav-link
-.router-link-exact-active .router-link-active aria-current="page"}
+[教程](../../zh/tools/aiot-ide.html){.nav-link .router-link-exact-active
+.router-link-active aria-current="page"}
 :::
 
 ::: nav-item
@@ -79,7 +79,7 @@
 
 [选择语言]{.title} []{.arrow .right}
 
--   [简体中文](../../zh/guide/version/APILevel4.html){.nav-link
+-   [简体中文](../../zh/tools/aiot-ide.html){.nav-link
     .router-link-exact-active .router-link-active aria-current="page"}
 -   [English](https://iot.mi.com/vela/quickapp/en/guide/){.nav-link}
 :::
@@ -190,7 +190,7 @@
 
 ::: {.page role="main"}
 ::: {.theme-default-content .content__default}
-# [\#](../../zh/guide/version/APILevel4.html#概述){.header-anchor} 概述
+# [\#](../../zh/tools/aiot-ide.html#概述){.header-anchor} 概述
 
 Xiaomi Vela JS
 应用是小米公司开发的一种应用类型，它是基于小米的物联网嵌入式软件平台
@@ -201,7 +201,7 @@ Xiaomi Vela OS 开发的。本文将介绍 Xiaomi Vela JS
 应用，并且希望快速上手，请直接访问 [快速入门](../../zh/guide/start.html)
 章节。
 
-## [\#](../../zh/guide/version/APILevel4.html#应用特点){.header-anchor} 应用特点
+## [\#](../../zh/tools/aiot-ide.html#应用特点){.header-anchor} 应用特点
 
 Xiaomi Vela JS 应用是一种基于 Xiaomi Vela OS
 操作系统的轻量级应用模式，旨在为智能穿戴设备提供更加流畅和便捷的用户体验。它具备以下显著特点：
@@ -219,7 +219,7 @@ Xiaomi Vela JS 应用是一种基于 Xiaomi Vela OS
     应用的开发工具和文档齐全，开发者可以轻松上手，快速构建高质量的应用。小米提供了包括AIoT-IDE在内的一系列开发工具，支持开发者在Ubuntu、Windows、MacOS等操作系统上进行Xiaomi
     Vela JS 应用的开发和调试。
 
-## [\#](../../zh/guide/version/APILevel4.html#应用场景){.header-anchor} 应用场景
+## [\#](../../zh/tools/aiot-ide.html#应用场景){.header-anchor} 应用场景
 
 Xiaomi Vela JS
 应用的应用场景广泛，已落地多款产品，覆盖了智能穿戴设备上的多种使用情形：
@@ -237,21 +237,21 @@ Xiaomi Vela JS
 -   **日常工具：**
     提供天气预报、闹钟、计时器等日常工具功能，满足用户的多样化需求。
 
-## [\#](../../zh/guide/version/APILevel4.html#技术优势){.header-anchor} 技术优势
+## [\#](../../zh/tools/aiot-ide.html#技术优势){.header-anchor} 技术优势
 
 相较于传统的应用框架，Xiaomi Vela JS 应用具有以下技术优势：
 
-### [\#](../../zh/guide/version/APILevel4.html#前端开发范式){.header-anchor} 前端开发范式
+### [\#](../../zh/tools/aiot-ide.html#前端开发范式){.header-anchor} 前端开发范式
 
 Xiaomi Vela JS
 应用采用JavaScript语言开发，并且支持前端MVVM高效的开发范式，响应式UI框架，易学易用。使得开发者可以降低上手难度，缩短开发周期。这种模式贴合主流前端开发者的思维习惯，使得开发者能够快速构建出功能丰富、交互友好的应用，同时降低了学习成本。参考[开发语法](../../zh/guide/framework/index.html)。
 
-### [\#](../../zh/guide/version/APILevel4.html#统一的api和组件){.header-anchor} 统一的API和组件
+### [\#](../../zh/tools/aiot-ide.html#统一的api和组件){.header-anchor} 统一的API和组件
 
 Xiaomi Vela JS
 应用提供了统一的[JS接口](../../zh/features/index.html)和[UI组件](../../zh/components/index.html)，使得开发者无需关心底层硬件和操作系统的差异，简化了开发流程，同时保证了应用的质量和用户体验。
 
-### [\#](../../zh/guide/version/APILevel4.html#高性能渲染){.header-anchor} 高性能渲染
+### [\#](../../zh/tools/aiot-ide.html#高性能渲染){.header-anchor} 高性能渲染
 
 -   通过架构优化，让复杂计算下沉到原生层，解决 JS
     语言的性能瓶颈，从而拥有媲美原生的运行效率和流畅体验。
@@ -259,7 +259,7 @@ Xiaomi Vela JS
 -   充分挖掘硬件性能，最大限度利用 GPU 和 CPU 的硬件加速能力，让复杂UI
     界面和动画更加流畅，达到 60 fps 满帧效果。
 
-### [\#](../../zh/guide/version/APILevel4.html#多屏适配){.header-anchor} 多屏适配
+### [\#](../../zh/tools/aiot-ide.html#多屏适配){.header-anchor} 多屏适配
 
 [多屏适配](../../zh/guide/multi-screens/index.html)是Xiaomi Vela JS
 应用框架的另一大特色，具体表现在：
@@ -273,15 +273,15 @@ Xiaomi Vela JS
 -   **[适配案例](../../zh/guide/multi-screens/samples.html)：**
     提供了对常见页面元素进行多屏适配的代码示例以及整站案例，供开发者参考和学习。
 
-## [\#](../../zh/guide/version/APILevel4.html#应用开发流程){.header-anchor} 应用开发流程
+## [\#](../../zh/tools/aiot-ide.html#应用开发流程){.header-anchor} 应用开发流程
 
-### [\#](../../zh/guide/version/APILevel4.html#环境搭建){.header-anchor} 环境搭建
+### [\#](../../zh/tools/aiot-ide.html#环境搭建){.header-anchor} 环境搭建
 
 小米提供了包括AIoT-IDE在内的一系列开发工具，支持开发者在Ubuntu、Windows、MacOS等操作系统上进行Xiaomi
 Vela JS 应用的开发和调试。 AIoT-IDE是Xiaomi Vela JS
 应用的集成开发环境，提供了项目初始化、编码、调试等一系列功能。请参考[安装环境](../../zh/guide/start/use-ide.html)初始化项目。
 
-### [\#](../../zh/guide/version/APILevel4.html#应用开发){.header-anchor} 应用开发
+### [\#](../../zh/tools/aiot-ide.html#应用开发){.header-anchor} 应用开发
 
 初始化项目后请参考[项目结构](../../zh/guide/start/project-overview.html)了解项目中各文件和目录的作用。项目由配置文件（manifest.json）、模板代码（ux文件）、
 样式代码（css文件）、逻辑代码（js文件）以及资源文件（图片、音频等）组成。请参考[项目配置](../../zh/guide/framework/manifest.html)对项目相关信息进行配置。
@@ -293,11 +293,11 @@ Vela JS 应用的开发和调试。 AIoT-IDE是Xiaomi Vela JS
 个部分组成。开发者可以通过编写`ux`文件使用[UI组件](../../zh/components/index.html)、[自定义组件](../../zh/guide/framework/template/component.html)和样式描述页面结构和呈现效果，使用js脚本定义页面数据、实现生命周期接口、通用方法、事件处理等。
 请参考[编写页面UI](../../zh/guide/start/user-interface.html)进一步了解页面开发。
 
-### [\#](../../zh/guide/version/APILevel4.html#运行调试){.header-anchor} 运行调试
+### [\#](../../zh/tools/aiot-ide.html#运行调试){.header-anchor} 运行调试
 
 AIoT-IDE提供内置的模拟器，支持开发者启动模拟器在IDE中直接运行和调试应用，实时查看运行效果。请参考[运行调试](../../zh/guide/start/use-ide.html#_5-运行项目.html)了解如何运行和调试应用。
 
-### [\#](../../zh/guide/version/APILevel4.html#打包发布){.header-anchor} 打包发布
+### [\#](../../zh/tools/aiot-ide.html#打包发布){.header-anchor} 打包发布
 
 应用开发完成后，开发者可以使用AIoT-IDE提供的打包功能将应用打包成安装包，请参考[打包项目](../../zh/guide/start/use-ide.html#_7-打包项目.html)了解如何打包应用。项目打包成功后请参考[发布](../../zh/guide/publish/index.html)进行应用发布。
 :::
@@ -309,51 +309,51 @@ AIoT-IDE提供内置的模拟器，支持开发者启动模拟器在IDE中直接
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h2 .active}
-[应用特点](../../zh/guide/version/APILevel4.html#应用特点 "应用特点")
+[应用特点](../../zh/tools/aiot-ide.html#应用特点 "应用特点")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h2}
-[应用场景](../../zh/guide/version/APILevel4.html#应用场景 "应用场景")
+[应用场景](../../zh/tools/aiot-ide.html#应用场景 "应用场景")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h2}
-[技术优势](../../zh/guide/version/APILevel4.html#技术优势 "技术优势")
+[技术优势](../../zh/tools/aiot-ide.html#技术优势 "技术优势")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h3}
-[前端开发范式](../../zh/guide/version/APILevel4.html#前端开发范式 "前端开发范式")
+[前端开发范式](../../zh/tools/aiot-ide.html#前端开发范式 "前端开发范式")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h3}
-[统一的API和组件](../../zh/guide/version/APILevel4.html#统一的api和组件 "统一的API和组件")
+[统一的API和组件](../../zh/tools/aiot-ide.html#统一的api和组件 "统一的API和组件")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h3}
-[高性能渲染](../../zh/guide/version/APILevel4.html#高性能渲染 "高性能渲染")
+[高性能渲染](../../zh/tools/aiot-ide.html#高性能渲染 "高性能渲染")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h3}
-[多屏适配](../../zh/guide/version/APILevel4.html#多屏适配 "多屏适配")
+[多屏适配](../../zh/tools/aiot-ide.html#多屏适配 "多屏适配")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h2}
-[应用开发流程](../../zh/guide/version/APILevel4.html#应用开发流程 "应用开发流程")
+[应用开发流程](../../zh/tools/aiot-ide.html#应用开发流程 "应用开发流程")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h3}
-[环境搭建](../../zh/guide/version/APILevel4.html#环境搭建 "环境搭建")
+[环境搭建](../../zh/tools/aiot-ide.html#环境搭建 "环境搭建")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h3}
-[应用开发](../../zh/guide/version/APILevel4.html#应用开发 "应用开发")
+[应用开发](../../zh/tools/aiot-ide.html#应用开发 "应用开发")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h3}
-[运行调试](../../zh/guide/version/APILevel4.html#运行调试 "运行调试")
+[运行调试](../../zh/tools/aiot-ide.html#运行调试 "运行调试")
 :::
 
 ::: {.vuepress-toc-item .vuepress-toc-h3}
-[打包发布](../../zh/guide/version/APILevel4.html#打包发布 "打包发布")
+[打包发布](../../zh/tools/aiot-ide.html#打包发布 "打包发布")
 :::
 :::
 :::

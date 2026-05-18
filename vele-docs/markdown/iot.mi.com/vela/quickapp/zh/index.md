@@ -15,7 +15,7 @@
 :::
 
 ::: nav-item
-[教程](guide/version/APILevel4.html){.nav-link}
+[教程](tools/aiot-ide.html){.nav-link}
 :::
 
 ::: nav-item
@@ -52,7 +52,7 @@
 :::
 
 ::: nav-item
-[教程](guide/version/APILevel4.html){.nav-link}
+[教程](tools/aiot-ide.html){.nav-link}
 :::
 
 ::: nav-item
@@ -91,7 +91,7 @@
 
 开发者友好，性能高效的IoT跨端应用框架
 
-[快速开始](guide/version/APILevel4.html){.nav-link .action-button}
+[快速开始](tools/aiot-ide.html){.nav-link .action-button}
 :::
 
 ::: features

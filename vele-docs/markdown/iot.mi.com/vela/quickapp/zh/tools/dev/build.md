@@ -15,7 +15,7 @@
 :::
 
 ::: nav-item
-[教程](../../guide/version/APILevel4.html){.nav-link}
+[教程](../aiot-ide.html){.nav-link}
 :::
 
 ::: nav-item
@@ -52,7 +52,7 @@
 :::
 
 ::: nav-item
-[教程](../../guide/version/APILevel4.html){.nav-link}
+[教程](../aiot-ide.html){.nav-link}
 :::
 
 ::: nav-item
@@ -113,6 +113,7 @@
     -   [应用热更新](build.html){.active .sidebar-link
         aria-current="page"}
     -   [可视化编辑](manifest.html){.sidebar-link}
+    -   [AI 自动化生成](official-site-tutorial.html){.sidebar-link}
     :::
 
 -   ::: {.section .sidebar-group .depth-0}
